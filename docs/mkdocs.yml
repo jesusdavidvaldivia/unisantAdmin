@@ -1,0 +1,12 @@
+site_name: Manual de usuario Unisant
+
+nav:
+  - Contenido: 'index.md'
+  - 'Guía de Usuario':
+    - 'Inicio de sesión': 'inicio-sesion.md'
+    - 'Administrador': 'administrador.md'
+    - 'Sede': 'sede.md'
+    - 'Control escolar': 'control.md'
+
+
+theme: readthedocs
