@@ -83,18 +83,27 @@ lo que se explicará cada sección:
 1. Conciliaciones pendientes
 ----------------------------
 
-1.1 esto es un texto de prueba
+1.1 Texto prueba  
+~~~~~~~~~~~~~~~~
+
+esto es un texto de prueba
 
 2. Conciliaciones realizadas
 ----------------------------
 
 | Se mostrará el total de conciliaciones realizadas,al hacer click en
   “*Historial*” nos mostrará la siguiente tabla:
-| #### Historial de conciliaciones
+
+Historial de conciliaciones
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 | Cómo su nombre lo indica, mostrará una tabla con el historial de
   conciliaciones realizadas, en esta se podrá ver desde el folio,
   sede,concepto,fecha de conciliación,etc. |image8|
-| #### 1. Concepto
+
+1. Concepto
+~~~~~~~~~~~
+
 | Al hacer clic sobre algún concepto, abrirá otra ventana con
   información más específica cómo, datos de conciliación, pagos adjuntos
   y acciones del administrador. A continuación se explicará cada sección
@@ -136,7 +145,7 @@ Al hacer clic sobre cualquier nombre del alumno en la columna *Alumno*,
 nos dirigirá a otra vista con la información general del alumno.
 
 .. figure:: /images/pagos-adjuntos-tabla2.png
-   :alt: image13
+   :alt: image13                                                                  help me
 
    image13
 
