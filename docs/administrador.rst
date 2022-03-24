@@ -20,7 +20,7 @@ Chat de ayuda
 Al ingresar a la plataforma nos mostrará un icono para utilizar el chat
 de ayuda que se encuentra del lado inferior derecho de la pantalla.
 
-.. image::/images/icono-chat.png
+.. image:: /images/icono-chat.png
    :height: auto
    :width: 230px
    :alt: chat
