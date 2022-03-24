@@ -49,8 +49,6 @@ Menú Superior
 .. figure:: /images/dashboard-administrador.png
    :alt: 
 
-   image3
-
 1. **Home:** Muestra el tipo de moneda que se está manejando, en este
    caso MXN son pesos mexicanos, así mismo el icono *home* tiene la
    función de regresar a la pantalla principal.
@@ -66,8 +64,6 @@ Menú Superior
 
 .. figure:: /images/configuracion-usuario-admin.png
    :alt: 
-
-   image5
 
 Panel de control
 ================
@@ -870,7 +866,10 @@ Alumnos
 
 
 
-.. |image4| image:: /images/opcionesdeperfil-ce.png
+.. |image4| image:: /images/opcionesdeperfil-ce.png  
+   :width: 200px
+   :alt: opciones de perfil
+   :align: center  
 .. |image8| image:: /images/historial-conciliaciones-adm.png
 .. |image9| image:: /images/conciliacion-admin.png
 .. |image11| image:: /images/pagos-adjuntos1.png
