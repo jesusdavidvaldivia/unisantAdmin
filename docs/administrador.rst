@@ -7,7 +7,7 @@ Distribución del Menú
 
 Cómo primer punto, se va a encontrar la interfaz principal, la cual es
 el **panel de control**, esta se visualizara automaticamente al iniciar
-sesion en la plataforma.
+sesion en la plataforma :ref:`aqui has clic <graficote>`.
 
 .. figure:: /images/index-administrador.png
    :alt: 
@@ -846,7 +846,7 @@ Las acciones que mencionen a algun alumno por su **matrícula**, se podrá
 dar clic sobre ella y nos mostrará la información general del alumno,
 datos escolares, pagos, etc.  
 
-.. _intersphinx:
+.. _graficote:
 
 3.1 Gráfico de uso del sistema
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
