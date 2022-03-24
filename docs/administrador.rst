@@ -14,7 +14,8 @@ sesion en la plataforma.
 
    image0
 
-:ref:`graficosistema`
+:ref:`intersphinx`
+
 Chat de ayuda
 -------------
 
@@ -845,7 +846,8 @@ Las acciones que mencionen a algun alumno por su **matrícula**, se podrá
 dar clic sobre ella y nos mostrará la información general del alumno,
 datos escolares, pagos, etc.  
 
-.. _graficosistema:
+.. _intersphinx:
+
 3.1 Gráfico de uso del sistema
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
