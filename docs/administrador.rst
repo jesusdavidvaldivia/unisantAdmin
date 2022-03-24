@@ -96,8 +96,8 @@ Historial de conciliaciones
   conciliaciones realizadas, en esta se podrá ver desde el folio,
   sede,concepto,fecha de conciliación,etc. |image8|
 
-1. Concepto
-^^^^^^^^^^^
+1 Concepto
+^^^^^^^^^^
 
 | Al hacer clic sobre algún concepto, abrirá otra ventana con
   información más específica cómo, datos de conciliación, pagos adjuntos
@@ -262,7 +262,7 @@ estado del pago según el color que corresponda: |image25|
 1.3 Acciones de administrador
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2. Acciones
+2 Acciones
 ^^^^^^^^^^^
 
 Al hacer clic en **Detalles de la conciliación** nos mostrará la misma
