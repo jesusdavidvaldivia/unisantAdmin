@@ -83,29 +83,31 @@ lo que se explicará cada sección:
 1. Conciliaciones pendientes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esto es un texto de prueba.
+
 2. Conciliaciones realizadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | Se mostrará el total de conciliaciones realizadas,al hacer click en
   “*Historial*” nos mostrará la siguiente tabla:
 
-Historial de conciliaciones
-"""""""""""""""""""""""""""
+2.1 Historial de conciliaciones
+"""""""""""""""""""""""""""""""
 
 | Cómo su nombre lo indica, mostrará una tabla con el historial de
   conciliaciones realizadas, en esta se podrá ver desde el folio,
   sede,concepto,fecha de conciliación,etc. |image8|
 
-1.Concepto
-"""""""""""
+2.2 Concepto
+""""""""""""
 
 | Al hacer clic sobre algún concepto, abrirá otra ventana con
   información más específica cómo, datos de conciliación, pagos adjuntos
   y acciones del administrador. A continuación se explicará cada sección
   a detalle:
 
-1.1 Conciliación
-""""""""""""""""
+2.2.1 Conciliación
+""""""""""""""""""
 
 | Se muestra el nombre de la Sede, Fecha de creación,Periodo,Recaudación
   total tanto de materias cómo de requerimientos,elementos ó número de
