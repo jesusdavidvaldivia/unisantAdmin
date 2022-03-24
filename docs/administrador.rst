@@ -1,29 +1,5 @@
 Administrador
 =============
-1 # with overline, for parts
-2 * with overline, for chapters
-3 =, for sections
-4 -, for subsections
-5 ^, for subsubsections
-6 “, for paragraphs
-
-prueba hashtag
-##############
-
-prueba asterisco
-****************
-
-prueba igual
-============
-
-prueba guion
-------------
-
-prueba triangulo
-^^^^^^^^^^^^^^^^^
-
-prueba comillas
-"""""""""""""""
 
 Distribución del Menú
 ---------------------
@@ -105,18 +81,24 @@ lo que se explicará cada sección:
    image6  
 
 1. Conciliaciones pendientes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 2. Conciliaciones realizadas
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | Se mostrará el total de conciliaciones realizadas,al hacer click en
   “*Historial*” nos mostrará la siguiente tabla:
-| #### Historial de conciliaciones
+
+Historial de conciliaciones
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 | Cómo su nombre lo indica, mostrará una tabla con el historial de
   conciliaciones realizadas, en esta se podrá ver desde el folio,
   sede,concepto,fecha de conciliación,etc. |image8|
-| #### 1. Concepto
+
+1. Concepto
+^^^^^^^^^^^
+
 | Al hacer clic sobre algún concepto, abrirá otra ventana con
   información más específica cómo, datos de conciliación, pagos adjuntos
   y acciones del administrador. A continuación se explicará cada sección
