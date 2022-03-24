@@ -104,8 +104,10 @@ lo que se explicará cada sección:
 
 .. raw:: html
 
-   </center>
-   .. raw:: html
+   </center>  
+
+
+.. raw:: html
 
    <center>
 
