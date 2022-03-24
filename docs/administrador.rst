@@ -57,7 +57,22 @@ Menú Superior
    sesión y el nombre de la Sede, en este caso *PRUEBAS*, al seleccionar
    el nombre del usuario nos desglosará un menú con estas opciones:
 
-| |image4|
+.. |image4| 
+   :width: 200px
+   :alt: opciones de perfil
+   :align: center  
+
+..||image4|
+   :width: 200px
+   :alt: opciones de perfil
+   :align: center  
+
+..|image4| 
+   :width: 200px
+   :alt: opciones de perfil
+   :align: center  
+   
+   
 | Si seleccionamos cualquiera de las dos primeras opciones, ya sea,
   *Perfil ó Configuración* nos mostrará un formulario tanto para
   modificar el nombre y datos del usuario así cómo su contraseña.
@@ -866,10 +881,7 @@ Alumnos
 
 
 
-.. |image4| image:: /images/opcionesdeperfil-ce.png  
-   :width: 200px
-   :alt: opciones de perfil
-   :align: center  
+.. |image4| image:: /images/opcionesdeperfil-ce.png   
 .. |image8| image:: /images/historial-conciliaciones-adm.png
 .. |image9| image:: /images/conciliacion-admin.png
 .. |image11| image:: /images/pagos-adjuntos1.png
