@@ -21,22 +21,22 @@ Al ingresar a la plataforma nos mostrará un icono para utilizar el chat
 de ayuda que se encuentra del lado inferior derecho de la pantalla.
 
 .. image:: /images/icono-chat.png
-   :width: 230px
+   :width: 150px
    :alt: chat
-   :align: center
+   :align: center  
    
-
 Si se selecciona la opción de ayuda, nos mostrará un chat donde el
 usuario podrá interactuar con soporte técnico para dudas, aclaraciones o
 problemas con la plataforma, para iniciar chat se deberá seleccionar la
 opción de *“Nueva conversación”*, o bien seleccionar el campo de *Buscar
 respuestas* para verificar si esa pregunta ya se había realizado con
-anterioridad.
+anterioridad.  
 
-.. figure:: /images/chat.png
-   :alt:
 
-   image2
+.. image:: /images/chat.png
+   :width: 230px
+   :alt: chat
+   :align: center
 
 Tenemos del lado izquiero el menú principal, el cuál se conforma por la
 sección **Panel de control**, **Usuarios**, **Alumnos**, **Sede**,
