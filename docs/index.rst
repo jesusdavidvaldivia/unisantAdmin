@@ -8,7 +8,6 @@
 .. toctree::
    :caption: Guía de Usuario
 
-   inicio-sesion
    administrador
    sede
    control
