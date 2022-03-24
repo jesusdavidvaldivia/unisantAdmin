@@ -109,7 +109,7 @@ Historial de conciliaciones
   y acciones del administrador. A continuación se explicará cada sección
   a detalle:
 
-2.1 Conciliación
+1.1 Conciliación
 ~~~~~~~~~~~~~~~~
 
 | Se muestra el nombre de la Sede, Fecha de creación,Periodo,Recaudación
@@ -131,7 +131,7 @@ Historial de conciliaciones
 
    image10
 
-2.2 Pagos adjuntos
+1.2 Pagos adjuntos
 ~~~~~~~~~~~~~~~~~~
 
 | Se muestra la lista de los pagos realizados por los alumnos, también
@@ -145,11 +145,12 @@ Al hacer clic sobre cualquier nombre del alumno en la columna *Alumno*,
 nos dirigirá a otra vista con la información general del alumno.
 
 .. figure:: /images/pagos-adjuntos-tabla2.png
-   :alt: image13                                                                  help me
+   :alt: image13                                                                  
 
    image13
 
-
+2. prueba submenu xd
+~~~~~~~~~~~~~~~~~~~~
 
 .. |image4| image:: /images/opcionesdeperfil-ce.png
 .. |image8| image:: /images/historial-conciliaciones-adm.png
