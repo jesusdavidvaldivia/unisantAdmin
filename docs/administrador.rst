@@ -90,14 +90,14 @@ lo que se explicará cada sección:
   “*Historial*” nos mostrará la siguiente tabla:
 
 Historial de conciliaciones
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""
 
 | Cómo su nombre lo indica, mostrará una tabla con el historial de
   conciliaciones realizadas, en esta se podrá ver desde el folio,
   sede,concepto,fecha de conciliación,etc. |image8|
 
-1 Concepto
-^^^^^^^^^^
+1.Concepto
+"""""""""""
 
 | Al hacer clic sobre algún concepto, abrirá otra ventana con
   información más específica cómo, datos de conciliación, pagos adjuntos
@@ -105,7 +105,7 @@ Historial de conciliaciones
   a detalle:
 
 1.1 Conciliación
-^^^^^^^^^^^^^^^^
+""""""""""""""""
 
 | Se muestra el nombre de la Sede, Fecha de creación,Periodo,Recaudación
   total tanto de materias cómo de requerimientos,elementos ó número de
