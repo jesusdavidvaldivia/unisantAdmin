@@ -20,9 +20,11 @@ Chat de ayuda
 Al ingresar a la plataforma nos mostrará un icono para utilizar el chat
 de ayuda que se encuentra del lado inferior derecho de la pantalla.
 
-.. figure:: /images/icono-chat.png
-   :alt: 
-   image1
+.. image:: /images/icono-chat.png
+   :width: 230px
+   :alt: chat
+   :align: center
+   
 
 Si se selecciona la opción de ayuda, nos mostrará un chat donde el
 usuario podrá interactuar con soporte técnico para dudas, aclaraciones o
@@ -866,10 +868,6 @@ Alumnos
    :alt: alternate text
    :align: center
 
-.. image:: /images/grafico-usosistema.png
-   :width: 100%
-   :alt: ejemplo
-   :align: center
 
 
 .. |image4| image:: /images/opcionesdeperfil-ce.png
