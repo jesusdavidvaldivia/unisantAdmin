@@ -17,7 +17,8 @@ sesion en la plataforma.
 
    <center>
 
-**Ayuda**
+Chat de ayuda
+^^^^^^^^^^^^^
 
 .. raw:: html
 
