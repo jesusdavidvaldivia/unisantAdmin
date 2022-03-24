@@ -303,8 +303,565 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
   correspondiente. |imagen31|
 | En la parte derecha se mostrará los datos cómo CURP, fecha de
   nacimiento,así cómo también fecha de registro, periodo, etc.
-| |imagen32|
+| |imagen32|  
 
+1.1.1 Programas educativos  
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+| 1.Posteriormente está la parte de *Programas educativos* al dar clic
+  en **Inspeccionar** nos dirigirá a una sección donde nos dará la
+  opción de agregar *Materias*, *Generar un Kardex* y *Mostrar las
+  materias agregadas*.  
+
+1.1.2 Materias 
+~~~~~~~~~~~~~~
+
+Esta sección es para agregar
+  materias al alumno para crear un kardex de calificaciones. |image33|
+| Se deberá seleccionar la materia de la lista, el periodo y finalmente
+  insertar la calificación correspondiente, para finalizar se selecciona
+  el botón naranja **Añadir materias**. |image34|
+| Las materias añadidas se mostrarán en una tabla en la parte superior
+  de la siguiente manera:
+| |image35|
+| En la columna de **Calificación** tenemos la opción de modificarla
+  dandole clic sobre la calificación, nos aparecerá la siguiente
+  ventana, donde podremos modificar tanto la calificación cómo el
+  periodo ó tipo de reprobatoria en caso que se requiera:
+| |image36|
+| En la columna **Eliminar** en caso que se deseé eliminar la materia,
+  aparecerá la siguiente ventana. |image37|
+
+1.1.3 Kardex
+~~~~~~~~~~~~
+
+| También se puede generar un documento de Kardex con las materias
+  aprobadas disponibles, en caso de que existan materias.
+| |image38|
+| 1.Se seleccionan las materias que aparecerán en el kardex.
+| 2.Se introduce la fecha de expedición si se requiere modificar.
+| |image39|
+| 3.Por último se selecciona el botón de *Generar documento*.
+| |image40|
+| |image40|
+
+| 2.En la parte superior de `Programas educativos <#inspeccionar>`__,
+  tendremos la opción **Agregar**, la cuál al hacer clic nos desglosará
+  una liste de programas educativos para agregar al alumno:
+| |image41|
+| Se seleccionará un programa de la lista y se dará clic sobre el botón
+  *Agregar programa*, notaremos que aparecerá en la lista de programas
+  del alumno. |image42|
+| |image43|
+| En la parte superior de la información del alumno también tendremos la
+  opción de modificar o agregar el estado en que se encuentra el alumno
+  en una lista, pago o grupo:
+| |image44|
+| Se selecciona el tipo de estado y para guardar los cambios
+  seleccionamos el botón *Guardar*. |image45|
+
+1.2 Puntos
+~~~~~~~~~~
+
+| |image46|
+| **1.** Se inserta la cantidad de puntos que se desea agregar.
+| **2.** En caso de que los puntos se resten se marca esta casilla.
+| **3.** Para añadir el puntaje, seleccionar ese botón.
+| **4.** Para ver el historial de los puntos insertados se selecciona
+  ésta opción y nos muestra la siguiente tabla indicando el nombre del
+  usuario que los insertó, la cantidad, matricula del alumno al que se
+  le agregaron los puntos y la fecha, así mismo tenemos la opción de
+  búsqueda:
+| |image47|
+
+1.3 Comentarios
+~~~~~~~~~~~~~~~
+
+Esta sección tiene un área para escribir algún comentario y al presionar
+el botón verde se mostrará en la parte superior.
+
+.. figure:: /images/comentarios1-admin.png
+   :alt: image48
+
+   image48
+
+El comentario insertado se mostrará de la siguiente manera:
+
+.. figure:: /images/comentarios2-admin.png
+   :alt: image49
+
+   image49
+
+.. _acciones-1:
+
+1.4 Acciones
+~~~~~~~~~~~~
+
+Esta sección tiene distintas opciones para manipular los datos escolares
+del alumno, se irá especificando cada una de acuerdo al número que le
+corresponga:
+
+.. figure:: /images/acciones-admin.png
+   :alt: image50
+
+   image50
+
+1.4.1 Credencial del estudiante
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nos dará la posibilidad de subir la foto del alumno:
+
+.. figure:: /images/credencial1.png
+   :alt: image51
+
+   image51
+
+.. figure:: /images/credencial2.png
+   :alt: image52
+
+   image52
+
+Nos mostrará la vista previa de cómo quedaría el diseño de la
+credencial:
+
+.. figure:: /images/credencial3.png
+   :alt: image53
+
+   image53
+
+| En la parte superior tendremos dos opciones:
+| - *Descargar*: Nos descargará la credencial en formato PNG de imágen.
+| - *Remanofacturar*:
+| |image54|
+
+1.4.2 Editar información adicional
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Esta opción nos mostrará un formulario para introducir información
+personal, laboral y escolar más específica del alumno. Al terminar el
+correcto llenado de los campos seleccionar el botón *Actualizar* en caso
+que se quieran conservar los cambios.
+
+.. figure:: /images/informacion-adicional-estatal-ce.png
+   :alt: image55
+
+   image55  
+
+1.4.3 Materias
+~~~~~~~~~~~~~~
+
+Esta sección es para agregar materias al alumno y para crear un kardex
+de calificaciones, ésta opción ya fue previamente explicada en `esta
+sección <#materias>`__.
+
+1.4.4 Datos académicos
+~~~~~~~~~~~~~~~~~~~~~~
+
+En caso de que el alumno se registre para maestría o licenciatura se
+deberá llenar los campos de la fecha de antecedente y el número de
+cédula profesional. En el área de **Grado de estudios** se eligirá
+*Posgrado* ó *Licenciatura*.
+
+.. figure:: /images/datos-academicos-admin.png
+   :alt: image56
+
+   image56
+
+En la parte inferior hay un apartado para subir los documentos oficiales
+del alumno que requiera la institución, tales cómo: CURP, acta de
+nacimiento, etc. Se pueden subir dando clic sobre la flecha ó
+arrastrando los archivos con el mouse, del equipo al area marcada.
+
+.. figure:: /images/documentos-estatal.png
+   :alt: image57
+
+   image57
+
+::
+
+   Notaremos que hay 3 opciones del proceso de validación:  
+
+| **1. En validación:** significa que está en validación, es decir, aún
+  está en espera de revisión por el personal institucional.
+| **2. Necesita correción:** Una vez revisado cada documento la marca
+  cambiará a éste color si se tiene que modificar algún documento.
+| **3. Válidado:** Quiere decir que ya están correctos y/o validados.
+
+|image58| |image59|
+
+| **1.** Cada documento tendrá una flecha al lado derecho del título, la
+  cuál al seleccionarla desglosará una lista para elegir el nombre
+  estándar que debe llevar cada uno.
+| **2.** De igual manera notaremos que del lado superior derecho tendrá
+  una marca color **naranja** por lo que indica que necesita corrección.
+
+1.4.5 Planes de pago
+~~~~~~~~~~~~~~~~~~~~
+
+| Seleccionamos esa opción y nos mostrara los planes locales del alumno
+  generados por el usuario SEDE. Se visualizará el plan de pagos del
+  alumno y sus abonos realizados , tanto los pagados cómo los
+  pendientes, siempre se mostrará un plan de pago por defecto, cómo el
+  siguiente:
+| |image60|
+
+Para crear un nuevo plan se selecciona el que se requiera de la lista de
+*Plan de pagos* y elegimos el botón de *Añadir plan*.
+
+.. figure:: /images/planes-pago.png
+   :alt: image61
+
+   image61
+
+En caso de que en la lista de planes desglosada no se encuentre el plan
+adecuado, se puede generar uno seleccionando:
+
+.. figure:: /images/nuevo-plan-admin.png
+   :alt: image62
+
+   image62
+
+Seleccionamos el tipo de **concepto** que vamos a agregar.
+
+.. figure:: /images/concepto-pago-admin.png
+   :alt: image61
+
+   image61
+
+Una vez completados los datos requeridos seleccionamos el botón de
+**CREAR PLAN DE PAGO** y notaremos que en la parte inferior se mostrará
+el plan agregado dentro de la misma ventana. En la parte sueprior se
+visualiza el plan de pagos del alumno y sus abonos realizados , tanto
+los pagados cómo los pendientes.
+
+.. figure:: /images/plan-local-plazos.png
+   :alt: image62
+
+   image62
+
+**1. Eliminar/Imprimir**: Al seleccionar \*Imprimir nos descargará la
+información del estado de cuenta que estamos visualizando pero en
+formato PDF de la siguiente manera:
+
+.. figure:: /images/estado-cuenta-admin.png
+   :alt: image63
+
+   image63
+
+**2. Fecha de inicio**: Se puede modificar la fecha dando clic sobre
+ella y así nos dará la posibilidad de elegir la fecha que se requiera.
+
+**3. Cada(periodo)**: Se añade el día ó periodicidad en el que se estará
+haciendo el cobro de colegiatura haciendo doble clic sobre la palabra
+*Mes*, al seleccionar el signo **?** nos mostrará una ventana de ayuda
+como la siguiente:
+
+.. figure:: /images/cada.png
+   :alt: image63
+
+   image63
+
+**4. Beca**: Se muestra el porcentaje obtenido en caso de que se cuente
+con una beca, para agregar un nuevo porcentaje se tendrá que hacer doble
+clic sobre **0%**, de igual manera si se selecciona esa opcion mostrará
+una ventana de ayuda cómo la siguiente:
+
+.. figure:: /images/beca.png
+   :alt: image64
+
+   image64
+
+**5. Detener plan**:  
+
+1.4.6 Eliminar
+~~~~~~~~~~~~~~
+
+En ésta sección tendremos dos botones *Eliminar del sistema* y *Eliminar
+alumno*.  
+
+1.5 Datos académicos(documentación)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: /images/datos-academicos-info.png
+   :alt: image65
+
+   image65
+
+1.6 Información adicional
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Se muestran los datos insertados en la sección de **Acciones**\ `/Editar
+información adicional <#informacionadicional>`__, en este caso aquí ya
+no son modificables.
+
+.. figure:: /images/informacion-adiciona-info.png
+   :alt: image66
+
+   image66
+
+1.7 Facturación
+~~~~~~~~~~~~~~~
+
+En caso de que se haya solicitado facturación al realizar un pago, se
+mostrará la información introducida en el recibo de pago:
+
+.. figure:: /images/datos-factura.png
+   :alt: image67
+
+   image67
+
+Los datos generales mostrados aquí ya no son modificables en ésta
+sección.
+
+.. figure:: /images/facturacion-admin.png
+   :alt: image68
+
+   image68
+
+1.8 Estados de pagos
+~~~~~~~~~~~~~~~~~~~~
+
+Cómo última sección del área de *Facturas pendientes* se encuentran los
+estados de pagos que ya han sido explicados en `esta
+parte <#estadospagos>`__.  
+
+2. Solicitud
+~~~~~~~~~~~~
+
+Al seleccionar la opción de **Ver solicitud** nos abrirá una nueva
+ventana mostrandonos la información del recibo de facturación
+solicitado, estos datos no son modificables:
+
+| |image69|
+| |image70|
+
+.. _acciones-2:
+
+3. Acciones
+~~~~~~~~~~~  
+
+NOTAS
+-----
+
+CREAR NUEVO
+-----------  
+
+4. Obligaciones crediticias
+---------------------------
+
+.. figure:: /images/obligaciones-crediticias.png
+   :alt: image71
+
+   image71
+
+|image72| |image73|  
+
+5. Barra de ingresos
+--------------------
+
+Se muestran los ingresos totales obtenidos por Sedes en el mes que nos
+encontremos en una barra de porcentaje, en éste caso Marzo.
+
+.. figure:: /images/ingresos.png
+   :alt: image74
+
+   image74
+
+6. Pagos recibidos
+------------------
+
+.. figure:: /images/pagos-recibidos.png
+   :alt: image75
+
+   image75
+
+.. _conciliaciones-pendientes-1:
+
+7. Conciliaciones pendientes
+----------------------------
+
+muestra con link las que ya estan conciliadas desde sedes |image76|
+
+8. Historial de conciliaciones y facturas
+-----------------------------------------
+
+.. figure:: /images/historial-conciliaciones-pendientes.png
+   :alt: image77
+
+   image77  
+
+Usuarios
+========
+
+Ésta opción está úbicada en el menú de la parte izquiera de la pantalla.
+
+1. Perfil de usuario
+--------------------
+
+Nos mostrará un formulario tanto para modificar el nombre y datos del
+usuario así cómo su contraseña.
+
+.. figure:: /images/configuracion-usuario-admin.png
+   :alt: image78
+
+   image78
+
+2. Lista de usuarios
+--------------------
+
+Cómo su nombre lo índica, mostrará la lista general de usuarios
+registrados en la plataforma de todas las sedes, muestra desde el nombre
+del usuario hasta la última vez que inició sesión. Se pueden realizar
+búsquedas para encontrar un usuario en específico ya sea por nombre del
+usuario, sede, nivel, etc.
+
+.. figure:: /images/lista-usuarios.png
+   :alt: image79
+
+   image79
+
+.. _acciones-3:
+
+Acciones
+~~~~~~~~
+
+En ésta columna nos mostrará 3 diferentes opciones para cada usuario:
+
+2.1 Información de usuario
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+|image81|: Se utiliza para modificar la información del usuario,
+mostrandonos un formulario cómo el siguiente:
+
+.. figure:: /images/info-usuarios.png
+   :alt: image82
+
+   image82
+
+2.2 Agregar acceso a sedes
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+|image83|: Aquí se controla el acceso a sedes para los usuarios, pueden
+tener acceso a más de una, solo con seleccionar la sede a la que se
+quiere dar acceso y presionando el botón **Agregar acceso a sede**.
+
+.. figure:: /images/accesoasedes.png
+   :alt: image84
+
+   image84
+
+2.2.1 Accesos concedidos
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+En la siguiente parte se muestra una tabla con la lista de sedes a las
+que se le dió acceso al usuario, incluyendo fecha en que se dió de alta
+y la opción para eliminar el acceso a alguna sede en específico, también
+incluye la opción *Búscar* para listas mas largas, ya sea por nombre de
+sede ó fólio:
+
+.. figure:: /images/accesosconcedidos.png
+   :alt: image85
+
+   image85
+
+2.2.2 Copiar accesos
+~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: /images/copiaraccesos.png
+   :alt: image86
+
+   image86
+
+2.2.3 Eliminar accesos
+~~~~~~~~~~~~~~~~~~~~~~
+
+| Tenemos ésta opción para eliminar todas las sedes a las que se le dió
+  acceso al usuario:
+| |image87|
+
+2.3 Acceder a sedes
+~~~~~~~~~~~~~~~~~~~
+
+| |image88|: Al seleccionar este botón nos iniciará en la sesión del
+  usuario que se seleccionó, éste puede ser de nivel *Sede, Control
+  escolar ó Administrador* y nos mostrará la interfaz segun el nivel que
+  corresponda.
+| En este caso iniciaremos con este usuario que como nos muestra en la
+  siguiente imágen es de tipo *Sede*:
+
+.. figure:: /images/perlausuario.png
+   :alt: image89
+
+   image89
+
+Cómo se mencionó anteriormente nos mostrará la interfaz de acuerdo al
+nivel con el que se inició sesión, en éste caso **Sede**:
+
+.. figure:: /images/perlausuario-interfaz.png
+   :alt: image90
+
+   image90
+
+En la parte superior izquierda muestra el tipo de usuario que es, en la
+parte derecha al seleccionar el nombre del usuario nos desglosará una
+lista en donde tenemos la opción de elegir **Quedarme aquí** en caso de
+que quiera permanecer en este usuario.
+
+En caso de que se deseé regresar a la interfaz de su usuario original
+deberá presionar clic derecho sobre cualquier parte de la pantalla y nos
+mostrará un menú en donde seleccionaremos **Salir de este usuario**
+regresandonos a `Lista de usuarios <#listausuarios>`__.
+
+.. figure:: /images/salirdeesteusuario.png
+   :alt: image91
+
+   image91  
+
+Nuevo usuario
+~~~~~~~~~~~~~
+
+Al seleccionar este botón nos mostrará un formulario con los campos
+requeridos cómo nombre,correo electrónico,sede, nivel de usuario ya sea
+*Sede, Control escolar, Administrador ó Administrador escolar*, clave y
+guardando los cambios seleccionando el botó **Guardar**.
+
+.. figure:: /images/nuevousuario.png
+   :alt: image92
+
+   image92  
+
+3. Historial
+------------
+
+Muestra una lista con el nombre del usuario, la acción y fecha en que lo
+realizó, se puede realizar búsquedas por nombre de usuario, fólio o
+acción.
+
+.. figure:: /images/historial-usuarios.png
+   :alt: image93
+
+   image93
+
+Las acciones que mencionen a algun alumno por su **matrícula**, se podrá
+dar clic sobre ella y nos mostrará la información general del alumno,
+datos escolares, pagos, etc.  
+
+3.1 Gráfico de uso del sistema
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Muestra gráficamente el porcentaje que cáda usuario realizó acciones
+sobre el sistema:
+
+.. figure:: /images/grafico-usosistema.png
+   :alt: image94
+
+   image94
+
+3.2 Credenciales generadas
+~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+Alumnos
+=======
 
 
 
