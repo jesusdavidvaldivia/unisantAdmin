@@ -1,5 +1,29 @@
 Administrador
 =============
+1 # with overline, for parts
+2 * with overline, for chapters
+3 =, for sections
+4 -, for subsections
+5 ^, for subsubsections
+6 “, for paragraphs
+
+prueba hashtag
+##############
+
+prueba asterisco
+****************
+
+prueba igual
+============
+
+prueba guion
+------------
+
+prueba triangulo
+^^^^^^^^^^^^^^^^^
+
+prueba comillas
+"""""""""""""""
 
 Distribución del Menú
 ---------------------
@@ -13,16 +37,8 @@ sesion en la plataforma.
 
    image0
 
-.. raw:: html
-
-   <center>
-
 Chat de ayuda
 ^^^^^^^^^^^^^
-
-.. raw:: html
-
-   </center>
 
 Al ingresar a la plataforma nos mostrará un icono para utilizar el chat
 de ayuda que se encuentra del lado inferior derecho de la pantalla.
@@ -50,16 +66,8 @@ sección **Panel de control**, **Usuarios**, **Alumnos**, **Sede**,
 **Desarrollo**.
 
 
-.. raw:: html
-
-   <center>
-
 Menú Superior
 ^^^^^^^^^^^^^
-
-.. raw:: html
-
-   </center>
 
 .. figure:: /images/dashboard-administrador.png
    :alt: image3
@@ -94,29 +102,13 @@ lo que se explicará cada sección:
 .. figure:: /images/interfaz-admin.png
    :alt: image6
 
-   image6
-.. raw:: html
-
-   <center>
+   image6  
 
 1. Conciliaciones pendientes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. raw:: html
-
-   </center>  
-
-
-.. raw:: html
-
-   <center>
-
 2. Conciliaciones realizadas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. raw:: html
-
-   </center>
 
 | Se mostrará el total de conciliaciones realizadas,al hacer click en
   “*Historial*” nos mostrará la siguiente tabla:
