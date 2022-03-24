@@ -10,7 +10,7 @@ el **panel de control**, esta se visualizara automaticamente al iniciar
 sesion en la plataforma.
 
 .. figure:: /images/index-administrador.png
-   :alt: image0
+   :alt: 
 
    image0
 
@@ -21,8 +21,7 @@ Al ingresar a la plataforma nos mostrará un icono para utilizar el chat
 de ayuda que se encuentra del lado inferior derecho de la pantalla.
 
 .. figure:: /images/icono-chat.png
-   :alt: image1
-
+   :alt: 
    image1
 
 Si se selecciona la opción de ayuda, nos mostrará un chat donde el
@@ -33,7 +32,7 @@ respuestas* para verificar si esa pregunta ya se había realizado con
 anterioridad.
 
 .. figure:: /images/chat.png
-   :alt: image2
+   :alt:
 
    image2
 
@@ -46,7 +45,7 @@ Menú Superior
 -------------
 
 .. figure:: /images/dashboard-administrador.png
-   :alt: image3
+   :alt: 
 
    image3
 
@@ -64,7 +63,7 @@ Menú Superior
   modificar el nombre y datos del usuario así cómo su contraseña.
 
 .. figure:: /images/configuracion-usuario-admin.png
-   :alt: image5
+   :alt: 
 
    image5
 
@@ -76,7 +75,7 @@ principal que se nos presenta al iniciar sesión en nuestro usuario, por
 lo que se explicará cada sección:
 
 .. figure:: /images/interfaz-admin.png
-   :alt: image6
+   :alt:
 
    image6
 
@@ -127,7 +126,7 @@ Historial de conciliaciones
   Excel o PDF.
 
 .. figure:: /images/distribucion-rentabilidad.png
-   :alt: image10
+   :alt:
 
    image10
 
@@ -145,7 +144,7 @@ Al hacer clic sobre cualquier nombre del alumno en la columna *Alumno*,
 nos dirigirá a otra vista con la información general del alumno.
 
 .. figure:: /images/pagos-adjuntos-tabla2.png
-   :alt: image13                                                                  
+   :alt:                                                                  
 
    image13
 
@@ -159,7 +158,7 @@ modificables, si se altera alguno de los datos, para guardalos se deberá
 presionar el botón *Guardar*.
 
 .. figure:: /images/informacion-alumno-admin.png
-   :alt: image14
+   :alt: 
 
    image14
 
@@ -195,7 +194,7 @@ descargará la información del estado de cuenta que estamos visualizando
 pero en formato PDF de la siguiente manera:
 
 .. figure:: /images/estado-cuenta.png
-   :alt: image22
+   :alt: 
 
    image22
 
@@ -204,7 +203,7 @@ que se estará haciendo el cobro de colegiatura, si se hace clic sobre la
 opcion Nº 2 se mostrará una ventana de ayuda cómo la siguiente:
 
 .. figure:: /images/cada.png
-   :alt: image23
+   :alt: 
 
    image23
 
@@ -213,7 +212,7 @@ beca, de igual manera si se selecciona esa opcion mostrará una ventana
 de ayuda cómo la siguiente:
 
 .. figure:: /images/beca.png
-   :alt: image24
+   :alt: 
 
    image24
 
@@ -277,7 +276,7 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
 ----------------------
 
 .. figure:: /images/solicitud-facturas.png
-   :alt: image26
+   :alt: 
 
    image26
 
@@ -381,14 +380,14 @@ Esta sección tiene un área para escribir algún comentario y al presionar
 el botón verde se mostrará en la parte superior.
 
 .. figure:: /images/comentarios1-admin.png
-   :alt: image48
+   :alt:
 
    image48
 
 El comentario insertado se mostrará de la siguiente manera:
 
 .. figure:: /images/comentarios2-admin.png
-   :alt: image49
+   :alt: 
 
    image49
 
@@ -402,7 +401,7 @@ del alumno, se irá especificando cada una de acuerdo al número que le
 corresponga:
 
 .. figure:: /images/acciones-admin.png
-   :alt: image50
+   :alt: 
 
    image50
 
@@ -412,12 +411,12 @@ corresponga:
 Nos dará la posibilidad de subir la foto del alumno:
 
 .. figure:: /images/credencial1.png
-   :alt: image51
+   :alt:
 
    image51
 
 .. figure:: /images/credencial2.png
-   :alt: image52
+   :alt:
 
    image52
 
@@ -425,7 +424,7 @@ Nos mostrará la vista previa de cómo quedaría el diseño de la
 credencial:
 
 .. figure:: /images/credencial3.png
-   :alt: image53
+   :alt:
 
    image53
 
@@ -443,7 +442,7 @@ correcto llenado de los campos seleccionar el botón *Actualizar* en caso
 que se quieran conservar los cambios.
 
 .. figure:: /images/informacion-adicional-estatal-ce.png
-   :alt: image55
+   :alt: 
 
    image55  
 
@@ -463,7 +462,7 @@ cédula profesional. En el área de **Grado de estudios** se eligirá
 *Posgrado* ó *Licenciatura*.
 
 .. figure:: /images/datos-academicos-admin.png
-   :alt: image56
+   :alt: 
 
    image56
 
@@ -473,7 +472,7 @@ nacimiento, etc. Se pueden subir dando clic sobre la flecha ó
 arrastrando los archivos con el mouse, del equipo al area marcada.
 
 .. figure:: /images/documentos-estatal.png
-   :alt: image57
+   :alt: 
 
    image57
 
@@ -509,7 +508,7 @@ Para crear un nuevo plan se selecciona el que se requiera de la lista de
 *Plan de pagos* y elegimos el botón de *Añadir plan*.
 
 .. figure:: /images/planes-pago.png
-   :alt: image61
+   :alt: 
 
    image61
 
@@ -517,14 +516,14 @@ En caso de que en la lista de planes desglosada no se encuentre el plan
 adecuado, se puede generar uno seleccionando:
 
 .. figure:: /images/nuevo-plan-admin.png
-   :alt: image62
+   :alt: 
 
    image62
 
 Seleccionamos el tipo de **concepto** que vamos a agregar.
 
 .. figure:: /images/concepto-pago-admin.png
-   :alt: image61
+   :alt:
 
    image61
 
@@ -535,7 +534,7 @@ visualiza el plan de pagos del alumno y sus abonos realizados , tanto
 los pagados cómo los pendientes.
 
 .. figure:: /images/plan-local-plazos.png
-   :alt: image62
+   :alt: 
 
    image62
 
@@ -544,7 +543,7 @@ información del estado de cuenta que estamos visualizando pero en
 formato PDF de la siguiente manera:
 
 .. figure:: /images/estado-cuenta-admin.png
-   :alt: image63
+   :alt: 
 
    image63
 
@@ -557,7 +556,7 @@ haciendo el cobro de colegiatura haciendo doble clic sobre la palabra
 como la siguiente:
 
 .. figure:: /images/cada.png
-   :alt: image63
+   :alt: 
 
    image63
 
@@ -567,7 +566,7 @@ clic sobre **0%**, de igual manera si se selecciona esa opcion mostrará
 una ventana de ayuda cómo la siguiente:
 
 .. figure:: /images/beca.png
-   :alt: image64
+   :alt: 
 
    image64
 
@@ -583,7 +582,7 @@ alumno*.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/datos-academicos-info.png
-   :alt: image65
+   :alt: 
 
    image65
 
@@ -595,7 +594,7 @@ información adicional <#informacionadicional>`__, en este caso aquí ya
 no son modificables.
 
 .. figure:: /images/informacion-adiciona-info.png
-   :alt: image66
+   :alt: 
 
    image66
 
@@ -606,7 +605,7 @@ En caso de que se haya solicitado facturación al realizar un pago, se
 mostrará la información introducida en el recibo de pago:
 
 .. figure:: /images/datos-factura.png
-   :alt: image67
+   :alt: 
 
    image67
 
@@ -614,7 +613,7 @@ Los datos generales mostrados aquí ya no son modificables en ésta
 sección.
 
 .. figure:: /images/facturacion-admin.png
-   :alt: image68
+   :alt: 
 
    image68
 
@@ -650,7 +649,7 @@ CREAR NUEVO
 ---------------------------
 
 .. figure:: /images/obligaciones-crediticias.png
-   :alt: image71
+   :alt: 
 
    image71
 
@@ -663,7 +662,7 @@ Se muestran los ingresos totales obtenidos por Sedes en el mes que nos
 encontremos en una barra de porcentaje, en éste caso Marzo.
 
 .. figure:: /images/ingresos.png
-   :alt: image74
+   :alt: 
 
    image74
 
@@ -671,7 +670,7 @@ encontremos en una barra de porcentaje, en éste caso Marzo.
 ------------------
 
 .. figure:: /images/pagos-recibidos.png
-   :alt: image75
+   :alt:
 
    image75
 
@@ -686,7 +685,7 @@ muestra con link las que ya estan conciliadas desde sedes |image76|
 -----------------------------------------
 
 .. figure:: /images/historial-conciliaciones-pendientes.png
-   :alt: image77
+   :alt: 
 
    image77  
 
@@ -702,7 +701,7 @@ Nos mostrará un formulario tanto para modificar el nombre y datos del
 usuario así cómo su contraseña.
 
 .. figure:: /images/configuracion-usuario-admin.png
-   :alt: image78
+   :alt: 
 
    image78
 
@@ -716,7 +715,7 @@ búsquedas para encontrar un usuario en específico ya sea por nombre del
 usuario, sede, nivel, etc.
 
 .. figure:: /images/lista-usuarios.png
-   :alt: image79
+   :alt: 
 
    image79
 
@@ -734,7 +733,7 @@ En ésta columna nos mostrará 3 diferentes opciones para cada usuario:
 mostrandonos un formulario cómo el siguiente:
 
 .. figure:: /images/info-usuarios.png
-   :alt: image82
+   :alt: 
 
    image82
 
@@ -746,7 +745,7 @@ tener acceso a más de una, solo con seleccionar la sede a la que se
 quiere dar acceso y presionando el botón **Agregar acceso a sede**.
 
 .. figure:: /images/accesoasedes.png
-   :alt: image84
+   :alt:
 
    image84
 
@@ -760,7 +759,7 @@ incluye la opción *Búscar* para listas mas largas, ya sea por nombre de
 sede ó fólio:
 
 .. figure:: /images/accesosconcedidos.png
-   :alt: image85
+   :alt: 
 
    image85
 
@@ -768,7 +767,7 @@ sede ó fólio:
 ~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/copiaraccesos.png
-   :alt: image86
+   :alt: 
 
    image86
 
@@ -790,7 +789,7 @@ sede ó fólio:
   siguiente imágen es de tipo *Sede*:
 
 .. figure:: /images/perlausuario.png
-   :alt: image89
+   :alt: 
 
    image89
 
@@ -798,7 +797,7 @@ Cómo se mencionó anteriormente nos mostrará la interfaz de acuerdo al
 nivel con el que se inició sesión, en éste caso **Sede**:
 
 .. figure:: /images/perlausuario-interfaz.png
-   :alt: image90
+   :alt: 
 
    image90
 
@@ -813,7 +812,7 @@ mostrará un menú en donde seleccionaremos **Salir de este usuario**
 regresandonos a `Lista de usuarios <#listausuarios>`__.
 
 .. figure:: /images/salirdeesteusuario.png
-   :alt: image91
+   :alt: 
 
    image91  
 
@@ -826,8 +825,7 @@ requeridos cómo nombre,correo electrónico,sede, nivel de usuario ya sea
 guardando los cambios seleccionando el botó **Guardar**.
 
 .. figure:: /images/nuevousuario.png
-   :alt: image92
-
+   :alt: 
    image92  
 
 3. Historial
@@ -838,7 +836,7 @@ realizó, se puede realizar búsquedas por nombre de usuario, fólio o
 acción.
 
 .. figure:: /images/historial-usuarios.png
-   :alt: image93
+   :alt: 
 
    image93
 
@@ -853,7 +851,7 @@ Muestra gráficamente el porcentaje que cáda usuario realizó acciones
 sobre el sistema:
 
 .. figure:: /images/grafico-usosistema.png
-   :alt: image94
+   :alt: 
 
    image94
 
