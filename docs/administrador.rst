@@ -861,7 +861,7 @@ sobre el sistema:
 Alumnos
 =======
 .. image:: /images/grafico-usosistema.png
-   :height: 150px
+   :height: 100px
    :width: 800px
    :alt: alternate text
    :align: center
