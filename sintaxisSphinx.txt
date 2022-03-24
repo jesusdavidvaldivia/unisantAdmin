@@ -1,0 +1,11 @@
+Para agregar referencias
+-------------------------
+
+ 1. (Se inserta donde se dara click) -------------------->                             iniciar sesion en la plataforma :ref:`aqui has clic <graficote>`.
+
+ 2. (pones esta linea arriba de donde te va a dirigir el link de arriba)------------>   .. _graficote:
+
+https://docs.typo3.org/m/typo3/docs-how-to-document/main/en-us/WritingReST/CheatSheet.html
+
+https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#my-target
+
