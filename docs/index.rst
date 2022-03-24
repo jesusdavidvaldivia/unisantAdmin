@@ -12,4 +12,5 @@
    administrador
    sede
    control
+   prueba
    
