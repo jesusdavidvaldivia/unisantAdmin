@@ -149,8 +149,164 @@ nos dirigirá a otra vista con la información general del alumno.
 
    image13
 
-2. prueba submenu xd
-~~~~~~~~~~~~~~~~~~~~
+1.2.1 Información de alumno
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Se divide en 3 secciones, la primera es la información escolar del
+alumno, en que sede se encuentra, nombre, matrícula,carrera, el último
+pago que realizó y su grupo. Únicamente los campos marcados en verde son
+modificables, si se altera alguno de los datos, para guardalos se deberá
+presionar el botón *Guardar*.
+
+.. figure:: /images/informacion-alumno-admin.png
+   :alt: image14
+
+   image14
+
+| La segunda sección es la de comentarios y acciones, en el área de
+  *Comentarios* se puede agregar alguna nota para un alumno en
+  específico y en *Acciones* veremos que tenemos varias opciones cómo se
+  explicará a continuación:
+| |image15|
+
+1. **Credencial de estudiante:**
+2. **Planes de pago:**
+   |image16| Seleccionamos esa opción y nos mostrara los planes locales
+   del alumno, si hacemos clic sobre *Seleccionar plan de pagos* nos
+   desglosará una lista de plan de pagos, donde se eligirá la que el
+   usuario considere conveniente, posteriormente al elegir el plan,
+   seleccionamos la opción de **Añadir Plan**. |image17|
+
+| En caso de que en la lista de planes desglosada no se encuentre el
+  plan adecuado, se puede generar uno seleccionando:
+| |image18| |image19|
+
+| Seleccionamos el tipo de **concepto** que vamos a agregar.
+| |image20| Una vez completados los datos requeridos seleccionamos el
+  botón de **CREAR PLAN DE PAGO** y notaremos que en la parte inferior
+  se mostrará el plan agregado dentro de la misma ventana. En la parte
+  sueprior se visualiza el plan de pagos del alumno y sus abonos
+  realizados , tanto los pagados cómo los pendientes.
+| |image21|
+
+1 . Notaremos que en la parte superior derecha se encuentran las
+opciones *Eliminar / Imprimir*, si seleccionamos *Imprimir* nos
+descargará la información del estado de cuenta que estamos visualizando
+pero en formato PDF de la siguiente manera:
+
+.. figure:: /images/estado-cuenta.png
+   :alt: image22
+
+   image22
+
+2 . Se puede agregar la fecha de inicio y la periodicidad del día en el
+que se estará haciendo el cobro de colegiatura, si se hace clic sobre la
+opcion Nº 2 se mostrará una ventana de ayuda cómo la siguiente:
+
+.. figure:: /images/cada.png
+   :alt: image23
+
+   image23
+
+3 . Se muestra el porcentaje obtenido en caso de que se cuente con una
+beca, de igual manera si se selecciona esa opcion mostrará una ventana
+de ayuda cómo la siguiente:
+
+.. figure:: /images/beca.png
+   :alt: image24
+
+   image24
+
+4 . En caso de que se hayan modificado los datos de periodicidad, para
+guardar los cambios se seleccionará el botón *Actualizar*.
+
+3.\ **Eliminar**: Nos dá dos opciones para eliminar.
+
+**Estados del pago:** En la última columna de la tabla se visualizará el
+estado del pago según el color que corresponda: |image25|
+
+| A continuación se muestran las columnas sobre las cuales se puede
+  modificar los datos:
+| |image26|
+| 1. **Plan** Se muestra en color negro, ya que ya hay un plan asignado,
+  en caso que no hubiera , éste seria color naranja.
+| 2. **Comprobante** En caso de que no se haya subido un recibo de pago,
+  se podrá hacer dando doble clic sobre la leyenda *Sin comprobante*,
+  inmediatamente aparecerá un botón llamado **Seleccionar archivo** para
+  adjuntar el recibo. En este caso si existe un comprobante, al darle
+  clic en **Ver comprobante** y nos mostrará la siguiente imagen:
+
+| |image27|
+| 4.\ **Concepto/Nota:** Al hacer clic sobre esta opción desglosará una
+  ventana con el concepto que se le asignó al pago (*No es
+  modificable*).
+
+| |image29|
+| 5. **Generar recibo de pago** Al hacer clic nos descargará el recibo
+  del pago seleccionado en formato PDF:
+
+| |image30|
+| **NOTA** Si hacemos clic sobre el URL o escaneamos el código QR nos
+  enviará a una liga con la información del recibo anterior donde se
+  podrán ingresar datos del alumno para solicitar facturación,en la
+  parte inferior tenemos dos opciones, la primera es el botón para
+  *Solicitar facturación* si el alumno así lo requiere ó la opción de
+  *Hablar con mi asesor de sede* la cuál dirigirá al alumno al correo
+  institucional. |image23|
+| **Facturación y aclaración:**
+
+| |image24|
+| 6.\ **Devolver:** Solamente aparecerá esta opción si el pago no se ha
+  conciliado, al seleccionar esta opción aparecerá la siguiente ventana
+  indicando la leyenda siguiente:
+| |image25|
+| 7.\ **Estado** Cómo se puede observar está marcado en color *Verde* lo
+  que quiere decir que este pago ya ha sido conciliado y no se pueden
+  realizar modificaciones.
+
+1.3 Acciones de administrador
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+2. Acciones
+~~~~~~~~~~~
+
+Al hacer clic en **Detalles de la conciliación** nos mostrará la misma
+información que en la columna de `Conceptos <#conceptos-1>`__.  
+
+3. Facturas pendientes
+----------------------
+
+.. figure:: /images/solicitud-facturas.png
+   :alt: image26
+
+   image26
+
+1. Detalles
+~~~~~~~~~~~
+
+| Muestra información general del alumno, tanto escolar cómo datos
+  personales y acerca de su facturación e historial de pagos:
+| |imagen27|
+| |imagen28|
+
+1.1 Información detallada del alumno
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+| En esta primer sección nos muestra datos del alumno, cómo se mencionó
+  en anteriormente, sólo los campos marcados en color verde pueden
+  modificarse.
+| |imagen29| 1.Al hacer clic en el sobre nos dirigirá a otra pestaña en
+  el navegador, para enviar un e-mail al alumno, la vista será cómo
+  esta:
+| |imagen30|
+| 2.Desglosará una lista de sedes en donde se seleccionará la
+  correspondiente. |imagen31|
+| En la parte derecha se mostrará los datos cómo CURP, fecha de
+  nacimiento,así cómo también fecha de registro, periodo, etc.
+| |imagen32|
+
+
+
 
 .. |image4| image:: /images/opcionesdeperfil-ce.png
 .. |image8| image:: /images/historial-conciliaciones-adm.png
