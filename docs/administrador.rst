@@ -13,8 +13,15 @@ sesion en la plataforma.
 
    image0
 
-Chat de ayuda
-^^^^^^^^^^^^^
+.. raw:: html
+
+   <center>
+
+**Ayuda**
+
+.. raw:: html
+
+   </center>
 
 Al ingresar a la plataforma nos mostrará un icono para utilizar el chat
 de ayuda que se encuentra del lado inferior derecho de la pantalla.
@@ -40,7 +47,6 @@ Tenemos del lado izquiero el menú principal, el cuál se conforma por la
 sección **Panel de control**, **Usuarios**, **Alumnos**, **Sede**,
 **Control escolar**, **Pagos**, **Aplicación**, **Académicos**,
 **Desarrollo**.
-
 
 Menú Superior
 ^^^^^^^^^^^^^
@@ -78,36 +84,28 @@ lo que se explicará cada sección:
 .. figure:: /images/interfaz-admin.png
    :alt: image6
 
-   image6  
+   image6
 
 1. Conciliaciones pendientes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Esto es un texto de prueba.
 
 2. Conciliaciones realizadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | Se mostrará el total de conciliaciones realizadas,al hacer click en
   “*Historial*” nos mostrará la siguiente tabla:
-
-2.1 Historial de conciliaciones
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+| #### Historial de conciliaciones
 | Cómo su nombre lo indica, mostrará una tabla con el historial de
   conciliaciones realizadas, en esta se podrá ver desde el folio,
   sede,concepto,fecha de conciliación,etc. |image8|
-
-2.2 Concepto
-^^^^^^^^^^^^
-
+| #### 1. Concepto
 | Al hacer clic sobre algún concepto, abrirá otra ventana con
   información más específica cómo, datos de conciliación, pagos adjuntos
   y acciones del administrador. A continuación se explicará cada sección
   a detalle:
 
-2.2.1 Conciliación
-^^^^^^^^^^^^^^^^^^
+1.1 Conciliación
+^^^^^^^^^^^^^^^^
 
 | Se muestra el nombre de la Sede, Fecha de creación,Periodo,Recaudación
   total tanto de materias cómo de requerimientos,elementos ó número de
@@ -264,7 +262,7 @@ estado del pago según el color que corresponda: |image25|
 1.3 Acciones de administrador
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2 Acciones
+2. Acciones
 ^^^^^^^^^^^
 
 Al hacer clic en **Detalles de la conciliación** nos mostrará la misma
