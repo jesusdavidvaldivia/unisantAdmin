@@ -13,15 +13,8 @@ sesion en la plataforma.
 
    image0
 
-.. raw:: html
-
-   <center>
-
-**Ayuda**
-
-.. raw:: html
-
-   </center>
+Chat de ayuda
+^^^^^^^^^^^^^
 
 Al ingresar a la plataforma nos mostrará un icono para utilizar el chat
 de ayuda que se encuentra del lado inferior derecho de la pantalla.
@@ -88,6 +81,7 @@ lo que se explicará cada sección:
 
 1. Conciliaciones pendientes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.1 esto es un texto de prueba
 
 2. Conciliaciones realizadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -104,7 +98,7 @@ lo que se explicará cada sección:
   y acciones del administrador. A continuación se explicará cada sección
   a detalle:
 
-1.1 Conciliación
+2.1 Conciliación
 ^^^^^^^^^^^^^^^^
 
 | Se muestra el nombre de la Sede, Fecha de creación,Periodo,Recaudación
@@ -126,7 +120,7 @@ lo que se explicará cada sección:
 
    image10
 
-1.2 Pagos adjuntos
+2.2 Pagos adjuntos
 ^^^^^^^^^^^^^^^^^^
 
 | Se muestra la lista de los pagos realizados por los alumnos, también
