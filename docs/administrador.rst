@@ -49,8 +49,17 @@ sección **Panel de control**, **Usuarios**, **Alumnos**, **Sede**,
 **Control escolar**, **Pagos**, **Aplicación**, **Académicos**,
 **Desarrollo**.
 
+
+.. raw:: html
+
+   <center>
+
 Menú Superior
 ^^^^^^^^^^^^^
+
+.. raw:: html
+
+   </center>
 
 .. figure:: /images/dashboard-administrador.png
    :alt: image3
@@ -86,12 +95,26 @@ lo que se explicará cada sección:
    :alt: image6
 
    image6
+.. raw:: html
+
+   <center>
 
 1. Conciliaciones pendientes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+   </center>
+   .. raw:: html
+
+   <center>
 
 2. Conciliaciones realizadas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+   </center>
 
 | Se mostrará el total de conciliaciones realizadas,al hacer click en
   “*Historial*” nos mostrará la siguiente tabla:
