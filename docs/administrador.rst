@@ -61,6 +61,7 @@ Menú Superior
    :alt: alternate text
    :align: center  
 
+.. _perfilusuario:
 | Si seleccionamos cualquiera de las dos primeras opciones, ya sea,
   *Perfil ó Configuración* nos mostrará un formulario tanto para
   modificar el nombre y datos del usuario así cómo su contraseña.
@@ -76,9 +77,7 @@ principal que se nos presenta al iniciar sesión en nuestro usuario, por
 lo que se explicará cada sección:
 
 .. figure:: /images/interfaz-admin.png
-   :alt:
-
-   image6
+   :alt: image6
 
 1. Conciliaciones pendientes
 ----------------------------
@@ -106,6 +105,7 @@ Historial de conciliaciones
     :alt: alternate text
     :align: center  
 
+.. _conceptos:
 1. Concepto
 ~~~~~~~~~~~
 
@@ -193,7 +193,7 @@ presionar el botón *Guardar*.
    :align: center  
 
 .. _credencial:
-1.2.2.1 **Credencial de estudiante
+1.2.2.1 Credencial de estudiante
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nos dará la posibilidad de subir la foto del alumno:
@@ -214,13 +214,14 @@ credencial:
    :alt: 53
    :align: center
 
+.. image:: /images/credencial4.png
+   :alt: alternate text
+   :align: center  
+
 | En la parte superior tendremos dos opciones:
 | - *Descargar*: Nos descargará la credencial en formato PNG de imágen.
 | - *Remanofacturar*:  
 
-.. image:: /images/credencial4.png
-   :alt: alternate text
-   :align: center  
 
 
 1.2.2.2 Planes de pago
@@ -391,7 +392,7 @@ En la última columna de la tabla se visualizará el estado del pago según el c
 ~~~~~~~~~~~
 
 Al hacer clic en **Detalles de la conciliación** nos mostrará la misma
-información que en la columna de `Conceptos <#conceptos-1>`__.  
+información que en la columna de :ref:`Conceptos <conceptos>`.
 
 3. Facturas pendientes
 ----------------------
@@ -427,7 +428,7 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
    :alt: alternate text
    :align: center  
 
-| 1.Al hacer clic en el sobre nos dirigirá a otra pestaña en
+| 1. Al hacer clic en el sobre nos dirigirá a otra pestaña en
   el navegador, para enviar un e-mail al alumno, la vista será cómo
   esta:  
 
@@ -436,7 +437,7 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
    :alt: alternate text
    :align: center  
 
-| 2.Desglosará una lista de sedes en donde se seleccionará la
+| 2. Desglosará una lista de sedes en donde se seleccionará la
   correspondiente.  
   
 .. image:: /images/info-parte2.png
@@ -452,10 +453,11 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
    :alt: alternate text
    :align: center  
 
+.. _programaseducativos:
 1.1.1 Programas educativos  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| 1.Posteriormente está la parte de *Programas educativos* al dar clic
+| 1. Posteriormente está la parte de *Programas educativos* al dar clic
   en **Inspeccionar** nos dirigirá a una sección donde nos dará la
   opción de agregar *Materias*, *Generar un Kardex* y *Mostrar las
   materias agregadas*.  
@@ -515,7 +517,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
    :align: center  
 
 
-| 2.En la parte superior de `Programas educativos <#inspeccionar>`__,
+| 2.En la parte superior de `Programas educativos <programaseducativos>`__,
   tendremos la opción **Agregar**, la cuál al hacer clic nos desglosará
   una liste de programas educativos para agregar al alumno:  
 
@@ -606,7 +608,6 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
 
 1.3 Comentarios y acciones
 ~~~~~~~~~~~~~~~~~~~~~~~~~~  
-
 1.3.1 Comentarios
 ~~~~~~~~~~~~~~~~~  
 
@@ -644,6 +645,7 @@ corresponga:
 
 Esta información fue previamente explicada en :ref:`esta sección <credencial>`.
 
+.. _informacionadicional:
 1.3.2.2 Editar información adicional
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -795,7 +797,7 @@ alumno*.
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Se muestran los datos insertados en la sección de **Acciones**\ `/Editar
-información adicional <#informacionadicional>`__, en este caso aquí ya
+información adicional <informacionadicional>`, en este caso aquí ya
 no son modificables.
 
 .. figure:: /images/informacion-adiciona-info.png
@@ -917,10 +919,8 @@ Usuarios
 --------------------
 
 Nos mostrará un formulario tanto para modificar el nombre y datos del
-usuario así cómo su contraseña.
+usuario así cómo su contraseña, se mostrará :ref:`este formulario <perfilusuario>`.
 
-.. figure:: /images/configuracion-usuario-admin.png
-   :alt: image78
 
 2. Lista de usuarios
 --------------------
@@ -947,8 +947,6 @@ En ésta columna nos mostrará 3 diferentes opciones para cada usuario:
 .. image:: /images/accion2.png
    :width: 30px
    :alt: alternate text
-   :align: center
-
 Se utiliza para modificar la información del usuario,
 mostrandonos un formulario cómo el siguiente:
 
@@ -961,8 +959,6 @@ mostrandonos un formulario cómo el siguiente:
 .. image:: /images/accion1.png
    :width: 30px
    :alt: alternate text
-   :align: center
-
 Aquí se controla el acceso a sedes para los usuarios, pueden
 tener acceso a más de una, solo con seleccionar la sede a la que se
 quiere dar acceso y presionando el botón **Agregar acceso a sede**.
@@ -1005,13 +1001,12 @@ sede ó fólio:
 .. image:: /images/accion3.png
    :width: 30px
    :alt: alternate text
-   :align: center
-
 Al seleccionar este botón nos iniciará en la sesión del
   usuario que se seleccionó, éste puede ser de nivel *Sede, Control
   escolar ó Administrador* y nos mostrará la interfaz segun el nivel que
   corresponda.  
 
+.. _listausuarios:
 | En este caso iniciaremos con este usuario que como nos muestra en la
   siguiente imágen es de tipo *Sede*:
 
@@ -1032,7 +1027,7 @@ que quiera permanecer en este usuario.
 En caso de que se deseé regresar a la interfaz de su usuario original
 deberá presionar clic derecho sobre cualquier parte de la pantalla y nos
 mostrará un menú en donde seleccionaremos **Salir de este usuario**
-regresandonos a `Lista de usuarios <#listausuarios>`__.
+regresandonos a `Lista de usuarios <listausuarios>`__.
 
 .. figure:: /images/salirdeesteusuario.png
    :width: 300px
@@ -1078,11 +1073,4 @@ sobre el sistema:
 
 Alumnos
 =======
-.. image:: /images/grafico-usosistema.png
-   :height: 100px
-   :width: 100%
-   :alt: alternate text
-   :align: center
-
-
 
