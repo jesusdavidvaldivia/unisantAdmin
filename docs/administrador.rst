@@ -4,7 +4,7 @@ Administrador
 
 Distribución del Menú
 =====================
-
+.. _graficote:
 Cómo primer punto, se va a encontrar la interfaz principal, la cual es
 el **panel de control**, esta se visualizara automaticamente al iniciar
 sesion en la plataforma.
@@ -105,7 +105,8 @@ Historial de conciliaciones
     :alt: alternate text
     :align: center  
 
-.. _conceptos:
+.. _conceptos:  
+
 1. Concepto
 ~~~~~~~~~~~
 
@@ -192,7 +193,8 @@ presionar el botón *Guardar*.
    :alt: alternate text
    :align: center  
 
-.. _credencial:
+.. _credencial:  
+
 1.2.2.1 Credencial de estudiante
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -304,7 +306,8 @@ guardar los cambios se seleccionará el botón *Actualizar*.
 
 Nos dá dos opciones para eliminar.
 
-.. _estadospago:
+.. _estadospago:  
+
 1.2.3 Estados de pago  
 ~~~~~~~~~~~~~~~~~~~~~  
 
@@ -453,7 +456,8 @@ información que en la columna de :ref:`Conceptos <conceptos>`.
    :alt: alternate text
    :align: center  
 
-.. _programaseducativos:
+.. _programaseducativos:  
+
 1.1.1 Programas educativos  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -645,7 +649,8 @@ corresponga:
 
 Esta información fue previamente explicada en :ref:`esta sección <credencial>`.
 
-.. _informacionadicional:
+.. _informacionadicional:  
+
 1.3.2.2 Editar información adicional
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -879,8 +884,8 @@ CREAR NUEVO
 Se muestran los ingresos totales obtenidos por Sedes en el mes que nos
 encontremos en una barra de porcentaje, en éste caso Marzo.
 
-.. figure:: /images/ingresos.png
-    :width: 500px
+.. image:: /images/ingresos.png
+   :width: 500px
    :alt: ingresos
    :align: center
 
@@ -1000,13 +1005,13 @@ sede ó fólio:
 
 .. image:: /images/accion3.png
    :width: 30px
-   :alt: alternate text
-Al seleccionar este botón nos iniciará en la sesión del
+   :alt: alternate text  Al seleccionar este botón nos iniciará en la sesión del
   usuario que se seleccionó, éste puede ser de nivel *Sede, Control
   escolar ó Administrador* y nos mostrará la interfaz segun el nivel que
   corresponda.  
 
-.. _listausuarios:
+.. _listausuarios:  
+
 | En este caso iniciaremos con este usuario que como nos muestra en la
   siguiente imágen es de tipo *Sede*:
 
@@ -1027,7 +1032,7 @@ que quiera permanecer en este usuario.
 En caso de que se deseé regresar a la interfaz de su usuario original
 deberá presionar clic derecho sobre cualquier parte de la pantalla y nos
 mostrará un menú en donde seleccionaremos **Salir de este usuario**
-regresandonos a `Lista de usuarios <listausuarios>`__.
+regresandonos a `Lista de usuarios <#listausuarios>`__.
 
 .. figure:: /images/salirdeesteusuario.png
    :width: 300px
@@ -1074,3 +1079,4 @@ sobre el sistema:
 Alumnos
 =======
 
+:ref:`aqui has clic <graficote>`.
