@@ -395,7 +395,7 @@ En la última columna de la tabla se visualizará el estado del pago según el c
 ~~~~~~~~~~~
 
 Al hacer clic en **Detalles de la conciliación** nos mostrará la misma
-información que en la columna de :ref:`Conceptos <conceptos>`.
+información que en la columna de :ref:`Conceptos <#conceptos>`.
 
 3. Facturas pendientes
 ----------------------
@@ -487,7 +487,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
    :align: center  
 
 | Las materias añadidas se mostrarán en una tabla en la parte superior
-  de la :ref:`siguiente manera <tablamaterias>`.
+  de la :ref:`siguiente manera <#tablamaterias>`.
 
 1.1.1.2 Kardex
 ~~~~~~~~~~~~~~
@@ -521,7 +521,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
    :align: center  
 
 
-| 2.En la parte superior de `Programas educativos <programaseducativos>`__,
+| 2.En la parte superior de `Programas educativos <#programaseducativos>`__,
   tendremos la opción **Agregar**, la cuál al hacer clic nos desglosará
   una liste de programas educativos para agregar al alumno:  
 
@@ -647,7 +647,7 @@ corresponga:
 1.3.2.1 Credencial del estudiante
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
-Esta información fue previamente explicada en :ref:`esta sección <credencial>`.
+Esta información fue previamente explicada en :ref:`esta sección <#credencial>`.
 
 .. _informacionadicional:  
 
@@ -666,7 +666,7 @@ que se quieran conservar los cambios.
 ~~~~~~~~~~~~~~~~
 
 Esta sección es para agregar materias al alumno y para crear un kardex
-de calificaciones, ésta opción ya fue previamente explicada en :ref:`esta sección <materias>`.
+de calificaciones, ésta opción ya fue previamente explicada en :ref:`esta sección <#materias>`.
 
 1.3.2.4 Datos académicos
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -802,7 +802,7 @@ alumno*.
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Se muestran los datos insertados en la sección de **Acciones**\ `/Editar
-información adicional <informacionadicional>`, en este caso aquí ya
+información adicional <#informacionadicional>`, en este caso aquí ya
 no son modificables.
 
 .. figure:: /images/informacion-adiciona-info.png
@@ -827,7 +827,7 @@ sección.
 ~~~~~~~~~~~~~~~~~~~~
 
 Cómo última sección del área de *Facturas pendientes* se encuentran los
-estados de pagos que ya han sido explicados en :ref:`esta parte <estadospago>`.  
+estados de pagos que ya han sido explicados en :ref:`esta parte <#estadospago>`.  
 
 2. Solicitud
 ~~~~~~~~~~~~
@@ -924,7 +924,7 @@ Usuarios
 --------------------
 
 Nos mostrará un formulario tanto para modificar el nombre y datos del
-usuario así cómo su contraseña, se mostrará :ref:`este formulario <perfilusuario>`.
+usuario así cómo su contraseña, se mostrará :ref:`este formulario <#perfilusuario>`.
 
 
 2. Lista de usuarios
@@ -1005,7 +1005,8 @@ sede ó fólio:
 
 .. image:: /images/accion3.png
    :width: 30px
-   :alt: alternate text  Al seleccionar este botón nos iniciará en la sesión del
+   :alt: alternate text 
+Al seleccionar este botón nos iniciará en la sesión del
   usuario que se seleccionó, éste puede ser de nivel *Sede, Control
   escolar ó Administrador* y nos mostrará la interfaz segun el nivel que
   corresponda.  
@@ -1078,5 +1079,3 @@ sobre el sistema:
 
 Alumnos
 =======
-
-:ref:`aqui has clic <graficote>`.
