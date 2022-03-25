@@ -9,3 +9,78 @@ https://docs.typo3.org/m/typo3/docs-how-to-document/main/en-us/WritingReST/Cheat
 
 https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#my-target
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.. |image60| image:: /images/plan-defecto.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image69| image:: /images/factura1.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image70| image:: /images/factura2.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image72| image:: /images/deuda-alumno1.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image73| image:: /images/deuda-alumno2.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image76| image:: /images/conciliaciones-pendientes.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image81| image:: /images/accion2.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image83| image:: /images/accion1.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image87| image:: /images/eliminartodas.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+.. |image88| image:: /images/accion3.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
