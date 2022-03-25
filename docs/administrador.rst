@@ -442,7 +442,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
   el botón naranja **Añadir materias**.  
 
 .. image:: /images/lista-materias.png
-   :width: 100%
+   :width: 400px
    :alt: alternate text
    :align: center  
 
@@ -494,12 +494,12 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
 | 3.Por último se selecciona el botón de *Generar documento*.  
 
 .. image:: /images/kardexp1.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
 .. image:: /images/kardexp2.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
@@ -593,8 +593,10 @@ Esta sección tiene distintas opciones para manipular los datos escolares
 del alumno, se irá especificando cada una de acuerdo al número que le
 corresponga:
 
-.. figure:: /images/acciones-admin.png
-   :alt: image50
+.. image:: /images/acciones-admin.png
+   :width: 500px
+   :alt: acciones
+   :align: center
 
 1.4.1 Credencial del estudiante
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -854,7 +856,9 @@ Se muestran los ingresos totales obtenidos por Sedes en el mes que nos
 encontremos en una barra de porcentaje, en éste caso Marzo.
 
 .. figure:: /images/ingresos.png
-   :alt: image74
+    :width: 500px
+   :alt: ingresos
+   :align: center
 
 6. Pagos recibidos
 ------------------
@@ -919,10 +923,11 @@ En ésta columna nos mostrará 3 diferentes opciones para cada usuario:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/accion2.png
-   :width: 100%
+   :width: 30px
    :alt: alternate text
    :align: center
-: Se utiliza para modificar la información del usuario,
+
+Se utiliza para modificar la información del usuario,
 mostrandonos un formulario cómo el siguiente:
 
 .. figure:: /images/info-usuarios.png
@@ -934,7 +939,9 @@ mostrandonos un formulario cómo el siguiente:
 .. image:: /images/accion1.png
    :width: 30px
    :alt: alternate text
-   :align: center : Aquí se controla el acceso a sedes para los usuarios, pueden
+   :align: center
+
+Aquí se controla el acceso a sedes para los usuarios, pueden
 tener acceso a más de una, solo con seleccionar la sede a la que se
 quiere dar acceso y presionando el botón **Agregar acceso a sede**.
 
@@ -976,7 +983,9 @@ sede ó fólio:
 .. image:: /images/accion3.png
    :width: 30px
    :alt: alternate text
-   :align: center : Al seleccionar este botón nos iniciará en la sesión del
+   :align: center
+
+Al seleccionar este botón nos iniciará en la sesión del
   usuario que se seleccionó, éste puede ser de nivel *Sede, Control
   escolar ó Administrador* y nos mostrará la interfaz segun el nivel que
   corresponda.  
