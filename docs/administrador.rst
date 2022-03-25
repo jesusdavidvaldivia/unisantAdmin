@@ -180,6 +180,7 @@ presionar el botón *Guardar*.
    :alt: alternate text
    :align: center  
 
+
 | La segunda sección es la de comentarios y acciones, en el área de
   *Comentarios* se puede agregar alguna nota para un alumno en
   específico y en *Acciones* veremos que tenemos varias opciones cómo se
@@ -213,7 +214,7 @@ presionar el botón *Guardar*.
   plan adecuado, se puede generar uno seleccionando:
 
 .. image:: /images/elaborarplan.png
-   :width: 100%
+   :width: 300px
    :alt: alternate text
    :align: center  
 
@@ -225,7 +226,7 @@ presionar el botón *Guardar*.
 | Seleccionamos el tipo de **concepto** que vamos a agregar.  
 
 .. image:: /images/conceptonuevoplan.png
-   :width: 100%
+   :width: 
    :alt: alternate text
    :align: center  
 
@@ -252,14 +253,18 @@ pero en formato PDF de la siguiente manera:
 que se estará haciendo el cobro de colegiatura, si se hace clic sobre la
 opcion Nº 2 se mostrará una ventana de ayuda cómo la siguiente:
 
-.. figure:: /images/cada.png
+.. image:: /images/cada.png
+   :width: 350px
+   :align: center
    :alt: image23
 
 3 . Se muestra el porcentaje obtenido en caso de que se cuente con una
 beca, de igual manera si se selecciona esa opcion mostrará una ventana
 de ayuda cómo la siguiente:
 
-.. figure:: /images/beca.png
+.. image:: /images/cada.png
+   :width: 350px
+   :align: center
    :alt: image24
 
 4 . En caso de que se hayan modificado los datos de periodicidad, para
@@ -301,7 +306,7 @@ estado del pago según el color que corresponda:
   modificable*).
 
 .. image:: /images/concepto-pago-ce.png
-   :width: 100%
+   :width: 350px
    :alt: alternate text
    :align: center  
 
@@ -338,7 +343,7 @@ estado del pago según el color que corresponda:
   indicando la leyenda siguiente:
 
 .. image:: /images/devolucion.png
-   :width: 100%
+   :width: 350px
    :alt: alternate text
    :align: center
 
@@ -385,7 +390,7 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
   modificarse.  
 
 .. image:: /images/info-parte1.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
@@ -394,7 +399,7 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
   esta:  
 
 .. image:: /images/info-parte1-mail.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
@@ -402,7 +407,7 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
   correspondiente.  
   
 .. image:: /images/info-parte2.png
-   :width: 100%
+   :width: 400px
    :alt: alternate text
    :align: center  
 
@@ -455,7 +460,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
   periodo ó tipo de reprobatoria en caso que se requiera:  
 
 .. image:: /images/editarcalificacion-adm.png
-   :width: 100%
+   :width: 350px
    :alt: alternate text
    :align: center  
 
@@ -463,7 +468,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
   aparecerá la siguiente ventana.  
 
 .. image:: /images/eliminarmateria.png
-   :width: 100%
+   :width: 350px
    :alt: alternate text
    :align: center
 
@@ -504,7 +509,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
   una liste de programas educativos para agregar al alumno:  
 
 .. image:: /images/programaseducativoslista.png
-   :width: 100%
+   :width: 350px
    :alt: alternate text
    :align: center  
 
@@ -513,12 +518,12 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
   del alumno.   
   
 .. image:: /images/agregarprograma.png
-   :width: 100%
+   :width: 350px
    :alt: alternate text
    :align: center  
 
 .. image:: /images/programaseducativosagregados.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
@@ -527,7 +532,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
   en una lista, pago o grupo:  
 
 .. image:: /images/estado-pago-grupo.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
@@ -535,7 +540,7 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
   seleccionamos el botón *Guardar*.  
 
 .. image:: /images/estado-alumno.png
-   :width: 100%
+   :width: 400px
    :alt: alternate text
    :align: center  
 
@@ -567,13 +572,17 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
 Esta sección tiene un área para escribir algún comentario y al presionar
 el botón verde se mostrará en la parte superior.
 
-.. figure:: /images/comentarios1-admin.png
+.. image:: /images/comentarios1-admin.png
+   :width: 500px
+   :align: center  
    :alt: image48
 
 El comentario insertado se mostrará de la siguiente manera:
 
-.. figure:: /images/comentarios2-admin.png
-   :alt: image49
+.. image:: /images/comentarios2-admin.png
+   :width: 500px
+   :alt: 49
+   :align: center  
 
 .. _acciones-1:
 
@@ -601,8 +610,10 @@ Nos dará la posibilidad de subir la foto del alumno:
 Nos mostrará la vista previa de cómo quedaría el diseño de la
 credencial:
 
-.. figure:: /images/credencial3.png
-   :alt: image53
+.. image:: /images/credencial3.png
+   :width: 300px
+   :alt: 53
+   :align: center
 
 | En la parte superior tendremos dos opciones:
 | - *Descargar*: Nos descargará la credencial en formato PNG de imágen.
@@ -647,9 +658,8 @@ nacimiento, etc. Se pueden subir dando clic sobre la flecha ó
 arrastrando los archivos con el mouse, del equipo al area marcada.
 
 .. figure:: /images/documentos-estatal.png
-   :alt: image57
+   :alt: image57  
 
-::
 
    Notaremos que hay 3 opciones del proceso de validación:  
 
@@ -703,8 +713,10 @@ adecuado, se puede generar uno seleccionando:
 
 Seleccionamos el tipo de **concepto** que vamos a agregar.
 
-.. figure:: /images/concepto-pago-admin.png
-   :alt: image61
+.. image:: /images/concepto-pago-admin.png
+   :width: 350px
+   :alt: 61
+   :align: center
 
 Una vez completados los datos requeridos seleccionamos el botón de
 **CREAR PLAN DE PAGO** y notaremos que en la parte inferior se mostrará
@@ -730,16 +742,20 @@ haciendo el cobro de colegiatura haciendo doble clic sobre la palabra
 *Mes*, al seleccionar el signo **?** nos mostrará una ventana de ayuda
 como la siguiente:
 
-.. figure:: /images/cada.png
-   :alt: image63
+.. image:: /images/cada.png
+   :width: 350px
+   :alt: 63
+   :align: center
 
 **4. Beca**: Se muestra el porcentaje obtenido en caso de que se cuente
 con una beca, para agregar un nuevo porcentaje se tendrá que hacer doble
 clic sobre **0%**, de igual manera si se selecciona esa opcion mostrará
 una ventana de ayuda cómo la siguiente:
 
-.. figure:: /images/beca.png
-   :alt: image64
+.. image:: /images/beca.png
+   :width: 350px
+   :alt: 64
+   :align: center
 
 **5. Detener plan**:  
 
@@ -795,12 +811,12 @@ ventana mostrandonos la información del recibo de facturación
 solicitado, estos datos no son modificables:  
 
 .. image:: /images/factura1.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
 .. image:: /images/factura2.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
 
@@ -862,7 +878,9 @@ muestra con link las que ya estan conciliadas desde sedes
 -----------------------------------------
 
 .. figure:: /images/historial-conciliaciones-pendientes.png
-   :alt: image77  
+   :width: 400px
+   :alt: 77
+   :align: center
 
 Usuarios
 ========
@@ -914,10 +932,9 @@ mostrandonos un formulario cómo el siguiente:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 .. image:: /images/accion1.png
-   :width: 100%
+   :width: 30px
    :alt: alternate text
-   :align: center
-: Aquí se controla el acceso a sedes para los usuarios, pueden
+   :align: center : Aquí se controla el acceso a sedes para los usuarios, pueden
 tener acceso a más de una, solo con seleccionar la sede a la que se
 quiere dar acceso y presionando el botón **Agregar acceso a sede**.
 
@@ -957,10 +974,9 @@ sede ó fólio:
 ~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/accion3.png
-   :width: 100%
+   :width: 30px
    :alt: alternate text
-   :align: center 
-: Al seleccionar este botón nos iniciará en la sesión del
+   :align: center : Al seleccionar este botón nos iniciará en la sesión del
   usuario que se seleccionó, éste puede ser de nivel *Sede, Control
   escolar ó Administrador* y nos mostrará la interfaz segun el nivel que
   corresponda.  
@@ -988,7 +1004,9 @@ mostrará un menú en donde seleccionaremos **Salir de este usuario**
 regresandonos a `Lista de usuarios <#listausuarios>`__.
 
 .. figure:: /images/salirdeesteusuario.png
-   :alt: image91  
+   :width: 300px
+   :alt: salir de usuario
+   :align: center  
 
 Nuevo usuario
 ~~~~~~~~~~~~~
