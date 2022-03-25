@@ -10,9 +10,7 @@ el **panel de control**, esta se visualizara automaticamente al iniciar
 sesion en la plataforma.
 
 .. figure:: /images/index-administrador.png
-   :alt: 
-
-   image0
+   :alt: image0
 
 Chat de ayuda
 -------------
@@ -24,6 +22,7 @@ de ayuda que se encuentra del lado inferior derecho de la pantalla.
    :width: 150px
    :alt: chat
    :align: center  
+
    
 Si se selecciona la opción de ayuda, nos mostrará un chat donde el
 usuario podrá interactuar con soporte técnico para dudas, aclaraciones o
@@ -135,7 +134,7 @@ Historial de conciliaciones
   podremos realizar búsquedas tanto por nombre de concepto, cómo por
   monto y mostrados u ocultos, así como podemos imprimir o guardar esta
   información en cualquiera de los formatos que se muestran, cómo CSV,
-  Excel o PDF.
+  Excel o PDF.  
 
 .. figure:: /images/distribucion-rentabilidad.png
    :alt:
@@ -144,7 +143,7 @@ Historial de conciliaciones
 ~~~~~~~~~~~~~~~~~~
 
 | Se muestra la lista de los pagos realizados por los alumnos, también
-  tendremos la opción de imprimir o guardar la lista de pagos. 
+  tendremos la opción de imprimir o guardar la lista de pagos.  
   
 .. image:: /images/pagos-adjuntos1.png
    :width: 100%
@@ -153,19 +152,19 @@ Historial de conciliaciones
 
 | Podremos visualizar información específica del pago y del alumno,
   desde el monto, cantidad de pagos, matrícula y nombre del alumno,
-  fechas y comprobantes hasta conceptos de pago.
+  fechas y comprobantes hasta conceptos de pago.  
 
 .. image:: /images/pagos-adjuntos-tabla1.png
    :width: 100%
    :alt: alternate text
    :align: center  
 
+.. figure:: /images/pagos-adjuntos-tabla2.png
+   :alt:  
+
 Al hacer clic sobre cualquier nombre del alumno en la columna *Alumno*,
 nos dirigirá a otra vista con la información general del alumno.
-
-.. figure:: /images/pagos-adjuntos-tabla2.png
-   :alt:                                                                  
-
+                                                              
 1.2.1 Información de alumno
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -180,6 +179,8 @@ presionar el botón *Guardar*.
    :alt: alternate text
    :align: center  
 
+1.2.2 Comentarios y acciones  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 | La segunda sección es la de comentarios y acciones, en el área de
   *Comentarios* se puede agregar alguna nota para un alumno en
@@ -191,11 +192,42 @@ presionar el botón *Guardar*.
    :alt: alternate text
    :align: center  
 
-1. **Credencial de estudiante:**
-2. **Planes de pago:**  
+.. _credencial:
+1.2.2.1 **Credencial de estudiante
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nos dará la posibilidad de subir la foto del alumno:
+
+.. figure:: /images/credencial1.png
+   :width: 500px
+   :alt: credencial
+   :align: center
+
+.. figure:: /images/credencial2.png
+   :alt: image52
+
+Nos mostrará la vista previa de cómo quedaría el diseño de la
+credencial:
+
+.. image:: /images/credencial3.png
+   :width: 300px
+   :alt: 53
+   :align: center
+
+| En la parte superior tendremos dos opciones:
+| - *Descargar*: Nos descargará la credencial en formato PNG de imágen.
+| - *Remanofacturar*:  
+
+.. image:: /images/credencial4.png
+   :alt: alternate text
+   :align: center  
+
+
+1.2.2.2 Planes de pago
+~~~~~~~~~~~~~~~~~~~~~~  
 
 .. image:: /images/planes-pago-admin.png
-   :width: 100%
+   :width: 500px
    :alt: alternate text
    :align: center  
    
@@ -226,25 +258,21 @@ presionar el botón *Guardar*.
 | Seleccionamos el tipo de **concepto** que vamos a agregar.  
 
 .. image:: /images/conceptonuevoplan.png
-   :width: 
+   :width: 400px
    :alt: alternate text
    :align: center  
 
-Una vez completados los datos requeridos seleccionamos el
-  botón de **CREAR PLAN DE PAGO** y notaremos que en la parte inferior
-  se mostrará el plan agregado dentro de la misma ventana. En la parte
-  sueprior se visualiza el plan de pagos del alumno y sus abonos
-  realizados , tanto los pagados cómo los pendientes.
+Una vez completados los datos requeridos seleccionamos el botón de **CREAR PLAN DE PAGO** y notaremos que en la parte inferior se mostrará el plan agregado dentro de la misma ventana. En la parte superior se visualiza el plan de pagos del alumno y sus abonos realizados , tanto los pagados cómo los pendientes.  
 
 .. image:: /images/plan-local.png
    :width: 100%
    :alt: alternate text
-   :align: center
+   :align: center  
 
 1 . Notaremos que en la parte superior derecha se encuentran las
 opciones *Eliminar / Imprimir*, si seleccionamos *Imprimir* nos
 descargará la información del estado de cuenta que estamos visualizando
-pero en formato PDF de la siguiente manera:
+pero en formato PDF de la siguiente manera:  
 
 .. figure:: /images/estado-cuenta.png
    :alt: image22
@@ -260,7 +288,7 @@ opcion Nº 2 se mostrará una ventana de ayuda cómo la siguiente:
 
 3 . Se muestra el porcentaje obtenido en caso de que se cuente con una
 beca, de igual manera si se selecciona esa opcion mostrará una ventana
-de ayuda cómo la siguiente:
+de ayuda cómo la siguiente:  
 
 .. image:: /images/cada.png
    :width: 350px
@@ -270,18 +298,23 @@ de ayuda cómo la siguiente:
 4 . En caso de que se hayan modificado los datos de periodicidad, para
 guardar los cambios se seleccionará el botón *Actualizar*.
 
-3.\ **Eliminar**: Nos dá dos opciones para eliminar.
+1.2.2.3 Eliminar  
+~~~~~~~~~~~~~~~~
 
-**Estados del pago:** En la última columna de la tabla se visualizará el
-estado del pago según el color que corresponda: 
+Nos dá dos opciones para eliminar.
+
+.. _estadospago:
+1.2.3 Estados de pago  
+~~~~~~~~~~~~~~~~~~~~~  
+
+En la última columna de la tabla se visualizará el estado del pago según el color que corresponda: 
 
 .. image:: /images/estadosdelpago.png
    :width: 100%
    :alt: alternate text
    :align: center  
 
-| A continuación se muestran las columnas sobre las cuales se puede
-  modificar los datos:
+| A continuación se muestran las columnas sobre las cuales se puede modificar los datos:  
 
 .. image:: /images/estadosdelpago-admin.png
    :width: 100%
@@ -301,7 +334,7 @@ estado del pago según el color que corresponda:
    :alt: alternate text
    :align: center  
 
-| 4.\ **Concepto/Nota:** Al hacer clic sobre esta opción desglosará una
+| 3.\ **Concepto/Nota:** Al hacer clic sobre esta opción desglosará una
   ventana con el concepto que se le asignó al pago (*No es
   modificable*).
 
@@ -310,7 +343,7 @@ estado del pago según el color que corresponda:
    :alt: alternate text
    :align: center  
 
-| 5. **Generar recibo de pago** Al hacer clic nos descargará el recibo
+| 4. **Generar recibo de pago** Al hacer clic nos descargará el recibo
   del pago seleccionado en formato PDF:
 
 .. image:: /images/recibo-pago.png
@@ -338,7 +371,7 @@ estado del pago según el color que corresponda:
    :alt: alternate text
    :align: center  
 
-| 6.\ **Devolver:** Solamente aparecerá esta opción si el pago no se ha
+| 5.\ **Devolver:** Solamente aparecerá esta opción si el pago no se ha
   conciliado, al seleccionar esta opción aparecerá la siguiente ventana
   indicando la leyenda siguiente:
 
@@ -347,7 +380,7 @@ estado del pago según el color que corresponda:
    :alt: alternate text
    :align: center
 
-| 7.\ **Estado** Cómo se puede observar está marcado en color *Verde* lo
+| 6.\ **Estado** Cómo se puede observar está marcado en color *Verde* lo
   que quiere decir que este pago ya ha sido conciliado y no se pueden
   realizar modificaciones.
 
@@ -427,8 +460,9 @@ información que en la columna de `Conceptos <#conceptos-1>`__.
   opción de agregar *Materias*, *Generar un Kardex* y *Mostrar las
   materias agregadas*.  
 
-1.1.2 Materias 
-~~~~~~~~~~~~~~
+.. _materias:
+1.1.1.1 Añadir materias 
+~~~~~~~~~~~~~~~~~~~~~~
 
 Esta sección es para agregar materias al alumno para crear un kardex de calificaciones.  
   
@@ -447,33 +481,10 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
    :align: center  
 
 | Las materias añadidas se mostrarán en una tabla en la parte superior
-  de la siguiente manera:  
+  de la :ref:`siguiente manera <tablamaterias>`.
 
-.. image:: /images/tablamaterias.png
-   :width: 100%
-   :alt: alternate text
-   :align: center  
-
-| En la columna de **Calificación** tenemos la opción de modificarla
-  dandole clic sobre la calificación, nos aparecerá la siguiente
-  ventana, donde podremos modificar tanto la calificación cómo el
-  periodo ó tipo de reprobatoria en caso que se requiera:  
-
-.. image:: /images/editarcalificacion-adm.png
-   :width: 350px
-   :alt: alternate text
-   :align: center  
-
-| En la columna **Eliminar** en caso que se deseé eliminar la materia,
-  aparecerá la siguiente ventana.  
-
-.. image:: /images/eliminarmateria.png
-   :width: 350px
-   :alt: alternate text
-   :align: center
-
-1.1.3 Kardex
-~~~~~~~~~~~~
+1.1.1.2 Kardex
+~~~~~~~~~~~~~~
 
 | También se puede generar un documento de Kardex con las materias
   aprobadas disponibles, en caso de que existan materias.  
@@ -544,6 +555,33 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
    :alt: alternate text
    :align: center  
 
+.. _tablamaterias:
+1.1.1.3 Materias  
+~~~~~~~~~~~~~~~~  
+
+.. image:: /images/tablamaterias.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+| En la columna de **Calificación** tenemos la opción de modificarla
+  dandole clic sobre la calificación, nos aparecerá la siguiente
+  ventana, donde podremos modificar tanto la calificación cómo el
+  periodo ó tipo de reprobatoria en caso que se requiera:  
+
+.. image:: /images/editarcalificacion-adm.png
+   :width: 350px
+   :alt: alternate text
+   :align: center  
+
+| En la columna **Eliminar** en caso que se deseé eliminar la materia,
+  aparecerá la siguiente ventana.  
+
+.. image:: /images/eliminarmateria.png
+   :width: 350px
+   :alt: alternate text
+   :align: center  
+
 1.2 Puntos
 ~~~~~~~~~~
 
@@ -566,8 +604,11 @@ Esta sección es para agregar materias al alumno para crear un kardex de calific
    :alt: alternate text
    :align: center  
 
-1.3 Comentarios
-~~~~~~~~~~~~~~~
+1.3 Comentarios y acciones
+~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+1.3.1 Comentarios
+~~~~~~~~~~~~~~~~~  
 
 Esta sección tiene un área para escribir algún comentario y al presionar
 el botón verde se mostrará en la parte superior.
@@ -586,8 +627,8 @@ El comentario insertado se mostrará de la siguiente manera:
 
 .. _acciones-1:
 
-1.4 Acciones
-~~~~~~~~~~~~
+1.3.2 Acciones
+~~~~~~~~~~~~~~
 
 Esta sección tiene distintas opciones para manipular los datos escolares
 del alumno, se irá especificando cada una de acuerdo al número que le
@@ -598,34 +639,12 @@ corresponga:
    :alt: acciones
    :align: center
 
-1.4.1 Credencial del estudiante
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.3.2.1 Credencial del estudiante
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
-Nos dará la posibilidad de subir la foto del alumno:
+Esta información fue previamente explicada en :ref:`esta sección <credencial>`.
 
-.. figure:: /images/credencial1.png
-   :alt: image51
-
-.. figure:: /images/credencial2.png
-   :alt: image52
-
-Nos mostrará la vista previa de cómo quedaría el diseño de la
-credencial:
-
-.. image:: /images/credencial3.png
-   :width: 300px
-   :alt: 53
-   :align: center
-
-| En la parte superior tendremos dos opciones:
-| - *Descargar*: Nos descargará la credencial en formato PNG de imágen.
-| - *Remanofacturar*:  
-
-.. image:: /images/credencial4.png
-   :alt: alternate text
-   :align: center  
-
-1.4.2 Editar información adicional
+1.3.2.2 Editar información adicional
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta opción nos mostrará un formulario para introducir información
@@ -636,14 +655,13 @@ que se quieran conservar los cambios.
 .. figure:: /images/informacion-adicional-estatal-ce.png
    :alt: image55  
 
-1.4.3 Materias
-~~~~~~~~~~~~~~
+1.3.2.3 Materias
+~~~~~~~~~~~~~~~~
 
 Esta sección es para agregar materias al alumno y para crear un kardex
-de calificaciones, ésta opción ya fue previamente explicada en `esta
-sección <#materias>`__.
+de calificaciones, ésta opción ya fue previamente explicada en :ref:`esta sección <materias>`.
 
-1.4.4 Datos académicos
+1.3.2.4 Datos académicos
 ~~~~~~~~~~~~~~~~~~~~~~
 
 En caso de que el alumno se registre para maestría o licenciatura se
@@ -687,8 +705,8 @@ arrastrando los archivos con el mouse, del equipo al area marcada.
 | **2.** De igual manera notaremos que del lado superior derecho tendrá
   una marca color **naranja** por lo que indica que necesita corrección.
 
-1.4.5 Planes de pago
-~~~~~~~~~~~~~~~~~~~~
+1.3.2.5 Planes de pago
+~~~~~~~~~~~~~~~~~~~~~~  
 
 | Seleccionamos esa opción y nos mostrara los planes locales del alumno
   generados por el usuario SEDE. Se visualizará el plan de pagos del
@@ -761,19 +779,19 @@ una ventana de ayuda cómo la siguiente:
 
 **5. Detener plan**:  
 
-1.4.6 Eliminar
-~~~~~~~~~~~~~~
+1.3.2.6 Eliminar
+~~~~~~~~~~~~~~~~
 
 En ésta sección tendremos dos botones *Eliminar del sistema* y *Eliminar
 alumno*.  
 
-1.5 Datos académicos(documentación)
+1.4 Datos académicos(documentación)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/datos-academicos-info.png
    :alt: image65
 
-1.6 Información adicional
+1.5 Información adicional
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Se muestran los datos insertados en la sección de **Acciones**\ `/Editar
@@ -783,7 +801,7 @@ no son modificables.
 .. figure:: /images/informacion-adiciona-info.png
    :alt: image66
 
-1.7 Facturación
+1.6 Facturación
 ~~~~~~~~~~~~~~~
 
 En caso de que se haya solicitado facturación al realizar un pago, se
@@ -798,12 +816,11 @@ sección.
 .. figure:: /images/facturacion-admin.png
    :alt: image68
 
-1.8 Estados de pagos
+1.7 Estados de pagos
 ~~~~~~~~~~~~~~~~~~~~
 
 Cómo última sección del área de *Facturas pendientes* se encuentran los
-estados de pagos que ya han sido explicados en `esta
-parte <#estadospagos>`__.  
+estados de pagos que ya han sido explicados en :ref:`esta parte <estadospago>`.  
 
 2. Solicitud
 ~~~~~~~~~~~~
@@ -826,6 +843,11 @@ solicitado, estos datos no son modificables:
 
 3. Acciones
 ~~~~~~~~~~~  
+
+.. image:: /images/marcarnoentregada.png
+   :width: auto
+   :alt: alternate text
+   :align: center
 
 NOTAS
 -----
