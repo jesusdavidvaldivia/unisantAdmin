@@ -1,7 +1,7 @@
 Para agregar referencias
 -------------------------
 
- 1. (Se inserta donde se dara click) -------------------->                             iniciar sesion en la plataforma :ref:`aqui has clic <graficote>`.
+ 1. (Se inserta donde se dara click) -------------------->                             iniciar sesion en la plataforma :ref:`aqui has clic <#graficote>`.
 
  2. (pones esta linea arriba de donde te va a dirigir el link de arriba)------------>   .. _graficote:
 

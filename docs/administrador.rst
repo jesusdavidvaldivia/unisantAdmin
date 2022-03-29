@@ -81,17 +81,15 @@ lo que se explicará cada sección:
 
 1. Conciliaciones pendientes
 ----------------------------
-
-1.1 Texto prueba  
-~~~~~~~~~~~~~~~~
-
-esto es un texto de prueba
+Muestra el número de pagos pendientes a conciliar, los datos se reflejan en :ref:`esta tabla <#conciliaciones-pendientes-1>`.
 
 2. Conciliaciones realizadas
 ----------------------------
 
 | Se mostrará el total de conciliaciones realizadas,al hacer click en
   “*Historial*” nos mostrará la siguiente tabla:
+
+.. _historialconciliacion:
 
 Historial de conciliaciones
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -165,6 +163,8 @@ Historial de conciliaciones
 
 Al hacer clic sobre cualquier nombre del alumno en la columna *Alumno*,
 nos dirigirá a otra vista con la información general del alumno.
+
+.. _infoalumno:
                                                               
 1.2.1 Información de alumno
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -396,6 +396,8 @@ En la última columna de la tabla se visualizará el estado del pago según el c
 
 Al hacer clic en **Detalles de la conciliación** nos mostrará la misma
 información que en la columna de :ref:`Conceptos <#conceptos>`.
+
+.. _facturaspendientes: 
 
 3. Facturas pendientes
 ----------------------
@@ -900,21 +902,353 @@ encontremos en una barra de porcentaje, en éste caso Marzo.
 7. Conciliaciones pendientes
 ----------------------------
 
-muestra con link las que ya estan conciliadas desde sedes  
+Muestra en color naranja (link) las que ya estan conciliadas desde sedes, las conciliaciones pasan por el robot cada 5 minutos, si hay unas que falten compilar, las intenta compilar, si lo hace con éxito el concepto se pondrá en color naranja, si no, seguirá mostrándose de color negro, **FEBRERO 2022** se ha intentado compilar,es por eso que en la columna **Compilando** está en estado *Compilando* pero no fue posible ya que la terminología es menor a el número de pagos.
 
 .. image:: /images/conciliaciones-pendientes.png
    :width: 100%
    :alt: alternate text
    :align: center  
 
+Se pueden acceder a los datos de los conceptos en color *negro*, aunque no haya pasado el robot, dando clic derecho sobre el concepto que se deseé y desglosará 
+un menú con 2 opciones de compilación, *Compilación manual* y *Compilación rápida:  
+
+.. image:: /images/compilaciones.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+1. Compilación manual
+~~~~~~~~~~~~~~~~~~~~~  
+
+Utilizaremos cómo ejemplo el siguiente concepto para explicar la compilación manual, notaremos que aún no está Compilando
+y por ende aún se muestra en color *negro*.
+
+.. image:: /images/encabezado-febrero.png
+   :width: 100%
+   :alt: alternate text
+   :align: center 
+
+.. image:: /images/febrero.png
+   :width: 100%
+   :alt: alternate text
+   :align: center 
+
+Se va a intentar buscar que la terminología sea igual al número de pagos, dependiendo la cantidad de pagos será el tiempo que tardará el proceso.  
+
+1.1 Conciliación
+~~~~~~~~~~~~~~~~
+
+Cómo podemos observar nos muestra el total, descuentos ,recargos, etc, notaremos que en la parte superior aparecerá un reloj en color **Naranja**,
+lo que significa que la conciliación está en **Espera**.  
+
+.. image:: /images/febrero1.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+.. image:: /images/febrero1.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+1.2 Pagos adjuntos
+~~~~~~~~~~~~~~~~~~  
+
+Se muestra una tabla con todos los datos respecto a los pagos realizados, montos, información del alumno,
+fechas,terminología ,comprobantes, etc.  
+
+.. image:: /images/febrero2.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+
+.. image:: /images/febrero3.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+La terminología dice **NORMAL** ya que es un pago que se hizo al corriente y toda la información del pago, 
+de acuerdo al grupo en el  que viene realizará cálculos los cuáles tienen base en el catálogo de 
+**Distribuciones**.  
+
+1.2.1 Debug  
+~~~~~~~~~~~  
+
+.. image:: /images/debug.png
+   :width: 100%
+   :alt: alternate text
+   :align: center 
+
+El botón rojo es de **‘Debug’** el cuál sirve para ver cómo se va a repartir los ingresos pago por pago, al 
+presionarlo cambiará a color verde y mostrará una columna extra llamada **Valores** antes del Folio.
+
+1.3 Distribución
+~~~~~~~~~~~~~~~~ 
+
+Relacionan como se va a distribuir el dinero de los pagos con los grupos, si hay dos grupos es posible 
+que el dinero no se distribuya igual para ambos grupos. Los grupos además de ayudar a agrupar los alumnos 
+también ayudan a distribuir ese ingreso, si entran una serie de pagos y sus grupos no están definidos 
+aparecerá un recuadro **naranja** en la parte inferior con la leyenda **“Sin distribución”**, quiere decir que
+ hay un pago el cuál su grupo de distribución no se encuentra.  
+
+.. image:: /images/febrero5.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+.. _resultadosdistribucion:
+1.4 Resultados de distribución
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Resultados de distribución: son los cálculos de cómo es que se va a distribuir el dinero, si no tiene grupo 
+todo se irá a “Sin distribución asignada”.
+
+.. image:: /images/febrero4.png
+   :width: 100%
+   :alt: alternate text
+   :align: center 
+
+1.5 Añadir nuevo requerimiento  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+Los requerimientos son pagos realizados por la Sede y que tienen que ser repartidos.  
+
+.. image:: /images/añadirnuevorequerimiento-compilacionmanual.png
+   :width: 350px
+   :alt: alternate text
+   :align: center 
+
+Después de seleccionar algún concepto de la lista y haber agregado el monto seleccionamos 
+*Añadir requerimiento* y mostrará una tabla cómo la siguiente:  
+
+.. image:: /images/requerimientoincluido.png
+   :width: 500px
+   :alt: alternate text
+   :align: center  
+
+Estos datos también se toman en cuenta al momento de repartir los pagos, por lo que se 
+mostrará el concepto de **Requerimientos** en la tabla de :ref:`Resultados de distribución <#resultadosdistribucion>`. 
+Estos requerimientos son agregados por Contador o Sede.
+
+1.6 Acciones de administrador  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+.. image:: /images/accionesadministrador-compilacionmanual.png
+   :width: 400px
+   :alt: alternate text
+   :align: center  
+
+1.6.1 Deshacer  
+~~~~~~~~~~~~~~
+Le regresa todos los pagos a la universidad en caso de que haya algo mal con ellos.  
+
+1.6.2 Conciliar
+~~~~~~~~~~~~~~~  
+
+En caso de que se hayan revisado todos los pagos y todo esté correcto con la 
+distribución, al haber conciliado muestra una vista mas general con una tabla de (rentabilidad). 
+Esta conciliación pasará a ser parte del :ref:`Historial de conciliación <#historialconciliacion>`.  
+
+2. Compilación rápida  
+
+Ignora la terminología de pagos y mostrará los datos con sus cálculos.  
+Utilizaremos cómo ejemplo el siguiente concepto para explicar la compilación manual, notaremos que aún no está Compilando
+y por ende aún se muestra en color *negro*.
+
+.. image:: /images/encabezado-febrero.png
+   :width: 100%
+   :alt: alternate text
+   :align: center 
+
+.. image:: /images/febrerorapida.png
+   :width: 100%
+   :alt: alternate text
+   :align: center 
+
+.. _desconciliado: 
+
+2.1 Conciliación
+~~~~~~~~~~~~~~~~
+
+Cómo podemos observar nos muestra el total, descuentos ,recargos, etc, notaremos que en la parte superior aparecerá un reloj en color **Naranja**,
+lo que significa que la conciliación está en **Espera**.  
+
+.. image:: /images/concilacionrapida.png
+   :width: 100%
+   :alt: alternate text
+   :align: center     
+
+2.2 Pagos adjuntos 
+~~~~~~~~~~~~~~~~~~  
+
+Muestra todos los pagos que se están enviando, montos, si los pagos están bien o pendientes de 
+devolución, si existen cargos extra o cargos en contra, matricula y nombre del alumno, grupo de 
+distribución (cómo se van a repartir los montos y agrupar alumnos), fecha en que se pagó y la 
+fecha cubierta, ésta muestra **“No definido”** porque hicimos una compilación rápida y este método 
+se salta el cálculo de la fecha cubierta para acelerar el proceso.
+
+.. image:: /images/pagosrapida.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+2.2.1 Debug  
+~~~~~~~~~~~  
+
+.. image:: /images/pagossindebug.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+El botón rojo es de **‘Debug’** el cuál sirve para ver cómo se va a repartir los ingresos pago por pago, 
+al presionarlo cambiará a color verde y mostrará una columna extra llamada **Valores** antes del Folio.  
+
+.. image:: /images/pagosconvalores.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+
+El primer valor **350** se refiere a que por cada pago de colegiaturas a sede Orizaba descontará $350 
+y una pasarela la cuál es **122.625**, el restante lo va a repartir 70-30.
+Al seleccionar un valor de color naranja, por ejemplo **122.625** mostrará una ventana con la formula 
+que se utilizó para realizar el cálculo para ese valor.  
+
+.. image:: /images/formula.png
+   :width: 350px
+   :alt: alternate text
+   :align: center
+
+Al hacer clic sobre la matrícula del alumno que se requiera, nos dirigirá a su :ref:`información general <#infoalumno>`.
+
+
+2.2.2 Distribución
+~~~~~~~~~~~~~~~~ 
+
+Relacionan como se va a distribuir el dinero de los pagos con los grupos, si hay dos grupos es posible 
+que el dinero no se distribuya igual para ambos grupos. Los grupos además de ayudar a agrupar los alumnos 
+también ayudan a distribuir ese ingreso, si entran una serie de pagos y sus grupos no están definidos 
+aparecerá un recuadro **naranja** en la parte inferior con la leyenda **“Sin distribución”**, quiere decir que
+ hay un pago el cuál su grupo de distribución no se encuentra.  
+
+.. image:: /images/sindistribucion-compilacionmanual.png
+   :width: 350px
+   :alt: alternate text
+   :align: center
+
+2.2.3 Conceptos opcionales a descontar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+.. image:: /images/conceptosadescontar-compilacionmanual.png
+   :width: 100%
+   :alt: alternate text
+   :align: center
+
+2.3 Resultados de distribución  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/resultadosdistribucion-compilacionmanual.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+2.4 Añadir nuevo requerimiento  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+.. image:: /images/añadirnuevorequerimiento-compilacionmanual.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+2.5 Acciones de administrador  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+.. image:: /images/accionesadministrador-compilacionmanual.png
+   :width: 100%
+   :alt: alternate text
+   :align: center  
+
+2.5.1 Deshacer 
+~~~~~~~~~~~~~~   
+
+Le regresa todos los pagos a la universidad en caso de que haya algo mal con ellos.  
+
+2.5.2 Conciliar
+~~~~~~~~~~~~~~~  
+
+En caso de que se hayan revisado todos los pagos y todo esté correcto con la 
+distribución, al haber conciliado muestra una vista mas general con una tabla de (rentabilidad). 
+Esta conciliación pasará a ser parte del :ref:`Historial de conciliación <#historialconciliacion>`.
+
 8. Historial de conciliaciones y facturas
 -----------------------------------------
 
-.. figure:: /images/historial-conciliaciones-pendientes.png
+.. image:: /images/historial-conciliaciones-pendientes.png
    :width: 400px
    :alt: 77
-   :align: center
+   :align: center  
 
+8.1 Historial de conciliaciones
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+Al hacer clic sobre cualquier concepto nos mostrará los siguientes contenidos:  
+
+8.1.1 Conciliación  
+~~~~~~~~~~~~~~~~~~
+
+Notaremos que se muestra un icono verde indicando que el estatus de ese concepto ya está conciliado.  
+
+.. image:: /images/conciliacion.png
+   :width: 100%
+   :alt: conciliacion
+   :align: center 
+
+Nos muestra la cantidad bruta, descuentos, recargos, neto, cuantos elementos hay y cuantos requeridos.  
+ 
+
+8.1.2 Distribución de rentabilidad
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+En ésta tabla se mostrará la distribución del total de los pagos, seccionada en las siguientes columnas:    
+
+1. Distribución: Muestra los conceptos en los que se distribuyeron los montos y el total(rentabilidad).  
+2. Monto: Es la cantidad que se le asignará a cada concepto ya sea de utilidad o extras.
+3. Permitir en sede: Todos los datos sobre distribución y conciliaciones que estaremos visualizando la Sede 
+no las estará viendo, la Sede únicamente podrá ver los datos correspondientes a los que se le dé clic 
+sobre **Mostrar**, en este caso de ejemplo a “UTILIDAD_-_Esteban_Garcia, notaremos que ahora cambió a 
+**Ocultar** y este será el único dato que podrán ver: 
+
+.. image:: /images/distribucion.png
+   :width: 100%
+   :alt: distribucion
+   :align: center    
+
+8.1.3 Pagos adjuntos
+~~~~~~~~~~~~~~~~~~~~  
+
+Notaremos que ahora la tabla de pagos ya no nos muestra el botón de **Debug** debido a que éste solo aparece
+cuando aún no ha sido conciliado.  
+
+.. image:: /images/pagosconciliados.png
+   :width: 100%
+   :alt: distribucion
+   :align: center  
+
+De igual manera al seleccionar cualquier alumno en color **Rojo** nos dirigirá a la :ref:`información general <#infoalumno>`.   
+
+8.1.4 Acciones de administrador  
+
+Nos encontraremos con una sola opción **Desconciliar**, al seleccionar ese botón nos 
+mostrará una ventana de advertencia cómo esta:  
+.. image:: /images/advertenciadesconciliar.png
+   :width: 100%
+   :alt: distribucion
+   :align: center  
+
+Y al darle **Continuar** volverá a mostrar los datos :ref:`de ésta manera <#desconciliado>`.
+
+8.2 Historial de factuación  
+
+Al seleccionar ésta opción nos dirigirá a la misma información explicada en :ref:`Facturas pendientes <#_facturaspendientes>`.
 Usuarios
 ========
 
