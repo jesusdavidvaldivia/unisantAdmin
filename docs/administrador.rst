@@ -955,21 +955,22 @@ lo que significa que la conciliación está en **Espera**.
 ~~~~~~~~~~~~~~~~~~  
 
 Se muestra una tabla con todos los datos respecto a los pagos realizados, montos, información del alumno,
-fechas,terminología ,comprobantes, etc.  
+fechas,terminología ,comprobantes, etc.   
 
 .. image:: /images/febrero2.png
    :width: 100%
    :alt: alternate text
-   :align: center
+   :align: center  
 
 .. image:: /images/febrero3.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
+
 
 La terminología dice **NORMAL** ya que es un pago que se hizo al corriente y toda la información del pago, 
 de acuerdo al grupo en el  que viene realizará cálculos los cuáles tienen base en el catálogo de 
-**Distribuciones**.  
+**Distribuciones**.   
 
 1.2.1 Debug  
 ~~~~~~~~~~~  
@@ -988,25 +989,26 @@ presionarlo cambiará a color verde y mostrará una columna extra llamada **Valo
 Relacionan como se va a distribuir el dinero de los pagos con los grupos, si hay dos grupos es posible 
 que el dinero no se distribuya igual para ambos grupos. Los grupos además de ayudar a agrupar los alumnos 
 también ayudan a distribuir ese ingreso, si entran una serie de pagos y sus grupos no están definidos 
-aparecerá un recuadro **naranja** en la parte inferior con la leyenda **“Sin distribución”**, quiere decir que
- hay un pago el cuál su grupo de distribución no se encuentra.  
+aparecerá un recuadro **naranja** en la parte inferior con la leyenda **“Sin distribución”**, quiere decir que hay un pago el cuál su grupo de distribución no se encuentra.  
 
 .. image:: /images/febrero5.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
+
 
 .. _resultadosdistribucion:
 1.4 Resultados de distribución
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Resultados de distribución: son los cálculos de cómo es que se va a distribuir el dinero, si no tiene grupo 
-todo se irá a “Sin distribución asignada”.
+todo se irá a **“Sin distribución asignada”**.
 
 .. image:: /images/febrero4.png
    :width: 100%
    :alt: alternate text
-   :align: center 
+   :align: center   
+
 
 1.5 Añadir nuevo requerimiento  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
@@ -1014,7 +1016,7 @@ todo se irá a “Sin distribución asignada”.
 Los requerimientos son pagos realizados por la Sede y que tienen que ser repartidos.  
 
 .. image:: /images/añadirnuevorequerimiento-compilacionmanual.png
-   :width: 350px
+   :width: 400px
    :alt: alternate text
    :align: center 
 
@@ -1022,13 +1024,13 @@ Después de seleccionar algún concepto de la lista y haber agregado el monto se
 *Añadir requerimiento* y mostrará una tabla cómo la siguiente:  
 
 .. image:: /images/requerimientoincluido.png
-   :width: 500px
+   :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
 Estos datos también se toman en cuenta al momento de repartir los pagos, por lo que se 
 mostrará el concepto de **Requerimientos** en la tabla de :ref:`Resultados de distribución <#resultadosdistribucion>`. 
-Estos requerimientos son agregados por Contador o Sede.
+Estos requerimientos son agregados por Contador o Sede.  
 
 1.6 Acciones de administrador  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
@@ -1043,17 +1045,18 @@ Estos requerimientos son agregados por Contador o Sede.
 Le regresa todos los pagos a la universidad en caso de que haya algo mal con ellos.  
 
 1.6.2 Conciliar
-~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~   
 
 En caso de que se hayan revisado todos los pagos y todo esté correcto con la 
-distribución, al haber conciliado muestra una vista mas general con una tabla de (rentabilidad). 
-Esta conciliación pasará a ser parte del :ref:`Historial de conciliación <#historialconciliacion>`.  
+distribución, al haber conciliado muestra una vista mas general con una tabla de **(rentabilidad)**. 
+Esta conciliación pasará a ser parte del :ref:`Historial de conciliación <#historialconciliacion>`.   
 
-2. Compilación rápida  
+2. Compilación rápida
+~~~~~~~~~~~~~~~~~~~~~    
 
-Ignora la terminología de pagos y mostrará los datos con sus cálculos.  
+Ignora la terminología de pagos y mostrará los datos con sus cálculos.   
 Utilizaremos cómo ejemplo el siguiente concepto para explicar la compilación manual, notaremos que aún no está Compilando
-y por ende aún se muestra en color *negro*.
+y por ende aún se muestra en color *negro*.  
 
 .. image:: /images/encabezado-febrero.png
    :width: 100%
@@ -1063,7 +1066,7 @@ y por ende aún se muestra en color *negro*.
 .. image:: /images/febrerorapida.png
    :width: 100%
    :alt: alternate text
-   :align: center 
+   :align: center   
 
 .. _desconciliado: 
 
@@ -1071,9 +1074,9 @@ y por ende aún se muestra en color *negro*.
 ~~~~~~~~~~~~~~~~
 
 Cómo podemos observar nos muestra el total, descuentos ,recargos, etc, notaremos que en la parte superior aparecerá un reloj en color **Naranja**,
-lo que significa que la conciliación está en **Espera**.  
+lo que significa que la conciliación está en **Espera**.   
 
-.. image:: /images/concilacionrapida.png
+.. image:: /images/conciliacionrapida.png
    :width: 100%
    :alt: alternate text
    :align: center     
@@ -1085,12 +1088,12 @@ Muestra todos los pagos que se están enviando, montos, si los pagos están bien
 devolución, si existen cargos extra o cargos en contra, matricula y nombre del alumno, grupo de 
 distribución (cómo se van a repartir los montos y agrupar alumnos), fecha en que se pagó y la 
 fecha cubierta, ésta muestra **“No definido”** porque hicimos una compilación rápida y este método 
-se salta el cálculo de la fecha cubierta para acelerar el proceso.
+se salta el cálculo de la fecha cubierta para acelerar el proceso.  
 
 .. image:: /images/pagosrapida.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
 2.2.1 Debug  
 ~~~~~~~~~~~  
@@ -1098,177 +1101,177 @@ se salta el cálculo de la fecha cubierta para acelerar el proceso.
 .. image:: /images/pagossindebug.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
 El botón rojo es de **‘Debug’** el cuál sirve para ver cómo se va a repartir los ingresos pago por pago, 
-al presionarlo cambiará a color verde y mostrará una columna extra llamada **Valores** antes del Folio.  
+al presionarlo cambiará a color verde y mostrará una columna extra llamada **Valores** antes del Folio.   
 
 .. image:: /images/pagosconvalores.png
    :width: 100%
    :alt: alternate text
-   :align: center
+   :align: center   
 
 El primer valor **350** se refiere a que por cada pago de colegiaturas a sede Orizaba descontará $350 
 y una pasarela la cuál es **122.625**, el restante lo va a repartir 70-30.
 Al seleccionar un valor de color naranja, por ejemplo **122.625** mostrará una ventana con la formula 
-que se utilizó para realizar el cálculo para ese valor.  
+que se utilizó para realizar el cálculo para ese valor.   
 
 .. image:: /images/formula.png
    :width: 350px
    :alt: alternate text
-   :align: center
+   :align: center   
 
-Al hacer clic sobre la matrícula del alumno que se requiera, nos dirigirá a su :ref:`información general <#infoalumno>`.
+Al hacer clic sobre la matrícula del alumno que se requiera, nos dirigirá a su :ref:`información general <#infoalumno>`.   
 
 
-2.2.2 Distribución
-~~~~~~~~~~~~~~~~ 
+2.2.2 Distribución  
+~~~~~~~~~~~~~~~~  
 
 Relacionan como se va a distribuir el dinero de los pagos con los grupos, si hay dos grupos es posible 
 que el dinero no se distribuya igual para ambos grupos. Los grupos además de ayudar a agrupar los alumnos 
 también ayudan a distribuir ese ingreso, si entran una serie de pagos y sus grupos no están definidos 
-aparecerá un recuadro **naranja** en la parte inferior con la leyenda **“Sin distribución”**, quiere decir que
- hay un pago el cuál su grupo de distribución no se encuentra.  
+aparecerá un recuadro **naranja** en la parte inferior con la leyenda **“Sin distribución”**, quiere decir que hay un pago el cuál su grupo de distribución no se encuentra.   
 
 .. image:: /images/sindistribucion-compilacionmanual.png
-   :width: 350px
+   :width: 600px
    :alt: alternate text
-   :align: center
+   :align: center   
 
 2.2.3 Conceptos opcionales a descontar
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
 
 .. image:: /images/conceptosadescontar-compilacionmanual.png
    :width: 100%
    :alt: alternate text
-   :align: center
+   :align: center   
 
 2.3 Resultados de distribución  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
 
 .. image:: /images/resultadosdistribucion-compilacionmanual.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
 2.4 Añadir nuevo requerimiento  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
 
 .. image:: /images/añadirnuevorequerimiento-compilacionmanual.png
-   :width: 100%
+   :width: 80%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
-2.5 Acciones de administrador  
+2.5 Acciones de administrador   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 .. image:: /images/accionesadministrador-compilacionmanual.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
-2.5.1 Deshacer 
-~~~~~~~~~~~~~~   
+2.5.1 Deshacer  
+~~~~~~~~~~~~~~    
 
-Le regresa todos los pagos a la universidad en caso de que haya algo mal con ellos.  
+Le regresa todos los pagos a la universidad en caso de que haya algo mal con ellos.   
 
 2.5.2 Conciliar
-~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~     
 
 En caso de que se hayan revisado todos los pagos y todo esté correcto con la 
 distribución, al haber conciliado muestra una vista mas general con una tabla de (rentabilidad). 
-Esta conciliación pasará a ser parte del :ref:`Historial de conciliación <#historialconciliacion>`.
+Esta conciliación pasará a ser parte del :ref:`Historial de conciliación <#historialconciliacion>`.   
 
-8. Historial de conciliaciones y facturas
------------------------------------------
+8. Historial de conciliaciones y facturas  
+-----------------------------------------   
 
 .. image:: /images/historial-conciliaciones-pendientes.png
    :width: 400px
    :alt: 77
-   :align: center  
+   :align: center    
 
-8.1 Historial de conciliaciones
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+8.1 Historial de conciliaciones  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
 
-Al hacer clic sobre cualquier concepto nos mostrará los siguientes contenidos:  
+Al hacer clic sobre cualquier concepto nos mostrará los siguientes contenidos:    
 
 8.1.1 Conciliación  
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~   
 
-Notaremos que se muestra un icono verde indicando que el estatus de ese concepto ya está conciliado.  
+Notaremos que se muestra un icono verde indicando que el estatus de ese concepto ya está conciliado.   
 
 .. image:: /images/conciliacion.png
    :width: 100%
    :alt: conciliacion
-   :align: center 
+   :align: center  
 
-Nos muestra la cantidad bruta, descuentos, recargos, neto, cuantos elementos hay y cuantos requeridos.  
+Nos muestra la cantidad bruta, descuentos, recargos, neto, cuantos elementos hay y cuantos requeridos.    
  
 
 8.1.2 Distribución de rentabilidad
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
 
-En ésta tabla se mostrará la distribución del total de los pagos, seccionada en las siguientes columnas:    
+En ésta tabla se mostrará la distribución del total de los pagos, seccionada en las siguientes columnas:      
 
 1. Distribución: Muestra los conceptos en los que se distribuyeron los montos y el total(rentabilidad).  
-2. Monto: Es la cantidad que se le asignará a cada concepto ya sea de utilidad o extras.
-3. Permitir en sede: Todos los datos sobre distribución y conciliaciones que estaremos visualizando la Sede 
-no las estará viendo, la Sede únicamente podrá ver los datos correspondientes a los que se le dé clic 
-sobre **Mostrar**, en este caso de ejemplo a “UTILIDAD_-_Esteban_Garcia, notaremos que ahora cambió a 
-**Ocultar** y este será el único dato que podrán ver: 
+2. Monto: Es la cantidad que se le asignará a cada concepto ya sea de utilidad o extras.  
+3. Permitir en sede: Todos los datos sobre distribución y conciliaciones que estaremos visualizando la Sede no las estará viendo, la Sede únicamente podrá ver los datos correspondientes a los que se le dé clic 
+sobre **Mostrar**, en este caso de ejemplo a “UTILIDAD_-_Esteban_Garcia, notaremos que ahora cambió a **Ocultar** y este será el único dato que podrán ver:    
 
 .. image:: /images/distribucion.png
    :width: 100%
    :alt: distribucion
-   :align: center    
+   :align: center     
 
 8.1.3 Pagos adjuntos
-~~~~~~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~~~~~~    
 
 Notaremos que ahora la tabla de pagos ya no nos muestra el botón de **Debug** debido a que éste solo aparece
-cuando aún no ha sido conciliado.  
+cuando aún no ha sido conciliado.   
 
 .. image:: /images/pagosconciliados.png
    :width: 100%
    :alt: distribucion
-   :align: center  
+   :align: center   
 
-De igual manera al seleccionar cualquier alumno en color **Rojo** nos dirigirá a la :ref:`información general <#infoalumno>`.   
+De igual manera al seleccionar cualquier alumno en color **Rojo** nos dirigirá a la :ref:`información general <#infoalumno>`.    
 
-8.1.4 Acciones de administrador  
+8.1.4 Acciones de administrador
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
 
-Nos encontraremos con una sola opción **Desconciliar**, al seleccionar ese botón nos 
-mostrará una ventana de advertencia cómo esta:  
+Nos encontraremos con una sola opción **Desconciliar**, al seleccionar ese botón nos mostrará una ventana de advertencia cómo esta:   
+
 .. image:: /images/advertenciadesconciliar.png
    :width: 100%
    :alt: distribucion
-   :align: center  
+   :align: center   
 
-Y al darle **Continuar** volverá a mostrar los datos :ref:`de ésta manera <#desconciliado>`.
+Y al darle **Continuar** volverá a mostrar los datos :ref:`de ésta manera <#desconciliado>`.   
 
-8.2 Historial de factuación  
+8.2 Historial de factuación
+~~~~~~~~~~~~~~~~~~~~~~~~~~~   
 
-Al seleccionar ésta opción nos dirigirá a la misma información explicada en :ref:`Facturas pendientes <#_facturaspendientes>`.
+Al seleccionar ésta opción nos dirigirá a la misma información explicada en :ref:`Facturas pendientes <#_facturaspendientes>`.   
+
 Usuarios
-========
+========   
 
-Ésta opción está úbicada en el menú de la parte izquiera de la pantalla.
+Ésta opción está úbicada en el menú de la parte izquiera de la pantalla.  
 
 1. Perfil de usuario
---------------------
+--------------------  
 
 Nos mostrará un formulario tanto para modificar el nombre y datos del
 usuario así cómo su contraseña, se mostrará :ref:`este formulario <#perfilusuario>`.
 
 
 2. Lista de usuarios
---------------------
+--------------------  
 
 Cómo su nombre lo índica, mostrará la lista general de usuarios
 registrados en la plataforma de todas las sedes, muestra desde el nombre
 del usuario hasta la última vez que inició sesión. Se pueden realizar
 búsquedas para encontrar un usuario en específico ya sea por nombre del
-usuario, sede, nivel, etc.
+usuario, sede, nivel, etc.  
 
 .. figure:: /images/lista-usuarios.png
    :alt: image79
@@ -1276,140 +1279,138 @@ usuario, sede, nivel, etc.
 .. _acciones-3:
 
 Acciones
-~~~~~~~~
+~~~~~~~~  
 
-En ésta columna nos mostrará 3 diferentes opciones para cada usuario:
+En ésta columna nos mostrará 3 diferentes opciones para cada usuario:  
 
 2.1 Información de usuario
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 .. image:: /images/accion2.png
    :width: 30px
    :alt: alternate text
 Se utiliza para modificar la información del usuario,
-mostrandonos un formulario cómo el siguiente:
+mostrandonos un formulario cómo el siguiente:  
 
 .. figure:: /images/info-usuarios.png
-   :alt: image82
+   :alt: image82  
 
 2.2 Agregar acceso a sedes
-~~~~~~~~~~~~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~~~~~~~~~~~~    
 
 .. image:: /images/accion1.png
    :width: 30px
    :alt: alternate text
 Aquí se controla el acceso a sedes para los usuarios, pueden
 tener acceso a más de una, solo con seleccionar la sede a la que se
-quiere dar acceso y presionando el botón **Agregar acceso a sede**.
+quiere dar acceso y presionando el botón **Agregar acceso a sede**.  
 
 .. figure:: /images/accesoasedes.png
-   :alt: image84
+   :alt: image84  
 
 2.2.1 Accesos concedidos
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~  
 
 En la siguiente parte se muestra una tabla con la lista de sedes a las
 que se le dió acceso al usuario, incluyendo fecha en que se dió de alta
 y la opción para eliminar el acceso a alguna sede en específico, también
 incluye la opción *Búscar* para listas mas largas, ya sea por nombre de
-sede ó fólio:
+sede ó fólio:  
 
 .. figure:: /images/accesosconcedidos.png
-   :alt: image85
+   :alt: image85  
 
 2.2.2 Copiar accesos
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~  
 
 .. figure:: /images/copiaraccesos.png
-   :alt: image86
+   :alt: image86  
 
 2.2.3 Eliminar accesos
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~  
 
 | Tenemos ésta opción para eliminar todas las sedes a las que se le dió
-  acceso al usuario:  
+  acceso al usuario:   
 
 .. image:: /images/eliminartodas.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
 2.3 Acceder a sedes
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~  
 
 .. image:: /images/accion3.png
    :width: 30px
-   :alt: alternate text 
-Al seleccionar este botón nos iniciará en la sesión del
-  usuario que se seleccionó, éste puede ser de nivel *Sede, Control
-  escolar ó Administrador* y nos mostrará la interfaz segun el nivel que
-  corresponda.  
+   :alt: alternate text   
+
+Al seleccionar este botón nos iniciará en la sesión del usuario que se seleccionó, éste puede ser de nivel *Sede, Control escolar ó Administrador* y nos mostrará la interfaz segun el nivel que corresponda.   
 
 .. _listausuarios:  
 
 | En este caso iniciaremos con este usuario que como nos muestra en la
-  siguiente imágen es de tipo *Sede*:
+  siguiente imágen es de tipo *Sede*:  
 
 .. figure:: /images/perlausuario.png
-   :alt: image89  
+   :alt: image89   
 
 Cómo se mencionó anteriormente nos mostrará la interfaz de acuerdo al
-nivel con el que se inició sesión, en éste caso **Sede**:
+nivel con el que se inició sesión, en éste caso **Sede**:  
 
 .. figure:: /images/perlausuario-interfaz.png
-   :alt: image90  
+   :alt: image90   
 
 En la parte superior izquierda muestra el tipo de usuario que es, en la
 parte derecha al seleccionar el nombre del usuario nos desglosará una
 lista en donde tenemos la opción de elegir **Quedarme aquí** en caso de
-que quiera permanecer en este usuario.
+que quiera permanecer en este usuario.  
 
 En caso de que se deseé regresar a la interfaz de su usuario original
 deberá presionar clic derecho sobre cualquier parte de la pantalla y nos
 mostrará un menú en donde seleccionaremos **Salir de este usuario**
-regresandonos a `Lista de usuarios <#listausuarios>`__.
+regresandonos a `Lista de usuarios <#listausuarios>`__.  
 
 .. figure:: /images/salirdeesteusuario.png
    :width: 300px
    :alt: salir de usuario
-   :align: center  
+   :align: center   
 
 Nuevo usuario
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~  
 
 Al seleccionar este botón nos mostrará un formulario con los campos
 requeridos cómo nombre,correo electrónico,sede, nivel de usuario ya sea
 *Sede, Control escolar, Administrador ó Administrador escolar*, clave y
-guardando los cambios seleccionando el botó **Guardar**.
+guardando los cambios seleccionando el botó **Guardar**.  
 
 .. figure:: /images/nuevousuario.png
-   :alt: image92  
+   :alt: image92   
 
 3. Historial
-------------
+------------  
 
 Muestra una lista con el nombre del usuario, la acción y fecha en que lo
 realizó, se puede realizar búsquedas por nombre de usuario, fólio o
-acción.
+acción.  
 
 .. figure:: /images/historial-usuarios.png
-   :alt: image93
+   :alt: image93  
 
 Las acciones que mencionen a algun alumno por su **matrícula**, se podrá
 dar clic sobre ella y nos mostrará la información general del alumno,
 datos escolares, pagos, etc.  
 
 3.1 Gráfico de uso del sistema
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 Muestra gráficamente el porcentaje que cáda usuario realizó acciones
-sobre el sistema:
+sobre el sistema:  
 
 .. figure:: /images/grafico-usosistema.png
-   :alt: image94
+   :alt: image94  
 
 3.2 Credenciales generadas
-~~~~~~~~~~~~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~~~~~~~~~~~~   
 
 Alumnos
-=======
+=======  
