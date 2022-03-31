@@ -721,122 +721,122 @@ arrastrando los archivos con el mouse, del equipo al area marcada.
   generados por el usuario SEDE. Se visualizará el plan de pagos del
   alumno y sus abonos realizados , tanto los pagados cómo los
   pendientes, siempre se mostrará un plan de pago por defecto, cómo el
-  siguiente:  
+  siguiente:   
 
 .. image:: /images/plan-defecto.png
    :width: 100%
    :alt: alternate text
-   :align: center  
+   :align: center   
 
 Para crear un nuevo plan se selecciona el que se requiera de la lista de
-*Plan de pagos* y elegimos el botón de *Añadir plan*.
+*Plan de pagos* y elegimos el botón de *Añadir plan*.  
 
 .. figure:: /images/planes-pago.png
-   :alt: image61
+   :alt: image61  
 
 En caso de que en la lista de planes desglosada no se encuentre el plan
-adecuado, se puede generar uno seleccionando:
+adecuado, se puede generar uno seleccionando:  
 
 .. figure:: /images/nuevo-plan-admin.png
-   :alt: image62
+   :alt: image62  
 
-Seleccionamos el tipo de **concepto** que vamos a agregar.
+Seleccionamos el tipo de **concepto** que vamos a agregar.  
 
 .. image:: /images/concepto-pago-admin.png
    :width: 350px
    :alt: 61
-   :align: center
+   :align: center  
 
 Una vez completados los datos requeridos seleccionamos el botón de
 **CREAR PLAN DE PAGO** y notaremos que en la parte inferior se mostrará
 el plan agregado dentro de la misma ventana. En la parte sueprior se
 visualiza el plan de pagos del alumno y sus abonos realizados , tanto
-los pagados cómo los pendientes.
+los pagados cómo los pendientes.  
 
 .. figure:: /images/plan-local-plazos.png
    :alt: image62
 
 **1. Eliminar/Imprimir**: Al seleccionar \*Imprimir nos descargará la
 información del estado de cuenta que estamos visualizando pero en
-formato PDF de la siguiente manera:
+formato PDF de la siguiente manera:  
 
 .. figure:: /images/estado-cuenta-admin.png
-   :alt: image63
+   :alt: image63  
 
 **2. Fecha de inicio**: Se puede modificar la fecha dando clic sobre
-ella y así nos dará la posibilidad de elegir la fecha que se requiera.
+ella y así nos dará la posibilidad de elegir la fecha que se requiera.  
 
 **3. Cada(periodo)**: Se añade el día ó periodicidad en el que se estará
 haciendo el cobro de colegiatura haciendo doble clic sobre la palabra
 *Mes*, al seleccionar el signo **?** nos mostrará una ventana de ayuda
-como la siguiente:
+como la siguiente:   
 
 .. image:: /images/cada.png
    :width: 350px
    :alt: 63
-   :align: center
+   :align: center  
 
 **4. Beca**: Se muestra el porcentaje obtenido en caso de que se cuente
 con una beca, para agregar un nuevo porcentaje se tendrá que hacer doble
 clic sobre **0%**, de igual manera si se selecciona esa opcion mostrará
-una ventana de ayuda cómo la siguiente:
+una ventana de ayuda cómo la siguiente:  
 
 .. image:: /images/beca.png
    :width: 350px
    :alt: 64
    :align: center
 
-**5. Detener plan**:  
+**5. Detener plan**:   
 
-1.3.2.6 Eliminar
-~~~~~~~~~~~~~~~~
+1.3.2.6 Eliminar  
+~~~~~~~~~~~~~~~~  
 
 En ésta sección tendremos dos botones *Eliminar del sistema* y *Eliminar
 alumno*.  
 
-1.4 Datos académicos(documentación)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.4 Datos académicos(documentación)  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 .. figure:: /images/datos-academicos-info.png
-   :alt: image65
+   :alt: image65  
 
 1.5 Información adicional
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 Se muestran los datos insertados en la sección de **Acciones**\ `/Editar
 información adicional <#informacionadicional>`, en este caso aquí ya
-no son modificables.
+no son modificables.  
 
 .. figure:: /images/informacion-adiciona-info.png
-   :alt: image66
+   :alt: image66  
 
 1.6 Facturación
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~  
 
 En caso de que se haya solicitado facturación al realizar un pago, se
-mostrará la información introducida en el recibo de pago:
+mostrará la información introducida en el recibo de pago:  
 
 .. figure:: /images/datos-factura.png
    :alt: image67
 
 Los datos generales mostrados aquí ya no son modificables en ésta
-sección.
+sección.  
 
 .. figure:: /images/facturacion-admin.png
-   :alt: image68
+   :alt: image68  
 
-1.7 Estados de pagos
-~~~~~~~~~~~~~~~~~~~~
+1.7 Estados de pagos  
+~~~~~~~~~~~~~~~~~~~~    
 
 Cómo última sección del área de *Facturas pendientes* se encuentran los
-estados de pagos que ya han sido explicados en :ref:`esta parte <#estadospago>`.  
+estados de pagos que ya han sido explicados en :ref:`esta parte <#estadospago>`.   
 
-2. Solicitud
-~~~~~~~~~~~~
+2. Solicitud  
+~~~~~~~~~~~~   
 
 Al seleccionar la opción de **Ver solicitud** nos abrirá una nueva
 ventana mostrandonos la información del recibo de facturación
-solicitado, estos datos no son modificables:  
+solicitado, estos datos no son modificables:   
 
 .. image:: /images/factura1.png
    :width: 500px
@@ -865,7 +865,7 @@ CREAR NUEVO
 -----------  
 
 4. Obligaciones crediticias
----------------------------
+---------------------------  
 
 .. figure:: /images/obligaciones-crediticias.png
    :alt: image71  
@@ -881,7 +881,7 @@ CREAR NUEVO
    :align: center  
 
 5. Barra de ingresos
---------------------
+--------------------  
 
 Se muestran los ingresos totales obtenidos por Sedes en el mes que nos
 encontremos en una barra de porcentaje, en éste caso Marzo.
@@ -892,7 +892,7 @@ encontremos en una barra de porcentaje, en éste caso Marzo.
    :align: center
 
 6. Pagos recibidos
-------------------
+------------------  
 
 .. figure:: /images/pagos-recibidos.png
    :alt: image75
@@ -900,7 +900,7 @@ encontremos en una barra de porcentaje, en éste caso Marzo.
 .. _conciliaciones-pendientes-1:
 
 7. Conciliaciones pendientes
-----------------------------
+----------------------------  
 
 Muestra en color naranja (link) las que ya estan conciliadas desde sedes, las conciliaciones pasan por el robot cada 5 minutos, si hay unas que falten compilar, las intenta compilar, si lo hace con éxito el concepto se pondrá en color naranja, si no, seguirá mostrándose de color negro, **FEBRERO 2022** se ha intentado compilar,es por eso que en la columna **Compilando** está en estado *Compilando* pero no fue posible ya que la terminología es menor a el número de pagos.
 
@@ -910,14 +910,14 @@ Muestra en color naranja (link) las que ya estan conciliadas desde sedes, las co
    :align: center  
 
 Se pueden acceder a los datos de los conceptos en color *negro*, aunque no haya pasado el robot, dando clic derecho sobre el concepto que se deseé y desglosará 
-un menú con 2 opciones de compilación, *Compilación manual* y *Compilación rápida:  
+un menú con 2 opciones de compilación, *Compilación manual* y *Compilación rápida*:  
 
 .. image:: /images/compilaciones.png
-   :width: 100%
+   :width: 350px
    :alt: alternate text
    :align: center  
 
-1. Compilación manual
+1. Compilación manual  
 ~~~~~~~~~~~~~~~~~~~~~  
 
 Utilizaremos cómo ejemplo el siguiente concepto para explicar la compilación manual, notaremos que aún no está Compilando
@@ -1010,8 +1010,8 @@ todo se irá a **“Sin distribución asignada”**.
    :align: center   
 
 
-1.5 Añadir nuevo requerimiento  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+1.5 Añadir nuevo requerimiento   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
 
 Los requerimientos son pagos realizados por la Sede y que tienen que ser repartidos.  
 
