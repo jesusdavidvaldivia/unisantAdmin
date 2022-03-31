@@ -196,35 +196,87 @@ presionar el botón *Guardar*.
 .. _credencial:  
 
 1.2.2.1 Credencial de estudiante
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
-Nos dará la posibilidad de subir la foto del alumno:
+Si la credencial ya fue previamente **pagada** nos dará la posibilidad de subir la foto del alumno, al posicionar el cursor sobre la leyenda **1. Seleccione la separación** nos aparecerá una pequeña descripción 
+*Indica la cantidad de caracteres del título (El nombre del alumno) de la carrera para partir el texto en dos lineas*, en este caso su valor es de **40**.  
 
-.. figure:: /images/credencial1.png
+Al seleccionar la opción de **Seleccionar archivo** nos abrirá una ventana para elegir la foto del alumno correspondiente, de preferencia las dimensiones 
+de la foto deben ser de **250 x 300**:
+
+.. image:: /images/credencial1.png
    :width: 500px
    :alt: credencial
-   :align: center
+   :align: center  
 
-.. figure:: /images/credencial2.png
-   :alt: image52
+Posteriormente nos mostrará una tabla con los pagos de credencial realizados, al hacer clic en la columna **Validez** vigente nos abrirá la siguiente vista:  
 
-Nos mostrará la vista previa de cómo quedaría el diseño de la
-credencial:
+.. image:: /images/credencial2.png
+   :alt: image52  
+
+.. image:: /images/validezcredencial.png
+   :width: 600px
+   :alt: credencial
+   :align: center  
+
+Pos último del lado derecho nos mostrará la vista previa de cómo quedaría el diseño de la credencial:
 
 .. image:: /images/credencial3.png
    :width: 300px
-   :alt: 53
-   :align: center
+   :alt: texto
+   :align: center  
+
+
+| En la parte superior tendremos dos opciones:
 
 .. image:: /images/credencial4.png
    :alt: alternate text
    :align: center  
 
-| En la parte superior tendremos dos opciones:
-| - *Descargar*: Nos descargará la credencial en formato PNG de imágen.
-| - *Remanofacturar*:  
+
+| - *Remanofacturar*: Al seleccionar ésta opción, la vista previa cambiará su apariencia con la foto que hayamos seleccionado.  
+
+.. image:: /images/remanofacturar.png
+   :width: 500px
+   :alt: texto
+   :align: center
+
+| - *Descargar*: Nos descargará la credencial en formato PNG de imágen con los cambios realizados.  
+
+.. image:: /images/credencialconfoto.png
+   :width: 500px
+   :alt: texto
+   :align: center  
 
 
+1.2.2.1.1 Pago de credencial de estudiante
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+En caso de que el alumno aún no haya realizado el pago, la vista que nos mostrará al seleccionar :ref:`Credencial de estudiante <#credencial>` será la siguiente:  
+
+.. image:: /images/credencialsinpago.png
+   :width: 100%
+   :alt: texto
+   :align: center 
+
+Al seleccionar el botón verde **Subir pago de credencial** nos dirigirá a un formulario el cuál se debe llenar con forme a los datos requeridos:  
+De lado izquierdo ingresaremos el *monto,descuento (en caso de que haya uno),fecha, folio y nota:   
+
+.. image:: /images/nuevopagocredencial.png
+   :width: 100%
+   :alt: texto
+   :align: center  
+
+De lado derecho tendremos que *subir el comprobante del pago (en caso de que haya alguno), elegir el método de pago, el tipo de pago, y el concepto*:   
+
+.. image:: /images/nuevopagocredencial2.png
+   :width: 100%
+   :alt: texto
+   :align: center  
+
+Después de haber llenado el formulario correctamente, seleccionaremos el botón **Guardar** y nos dirigirá a la sección de la *Información del alumno* 
+donde se nos reflejará el pago en la parte inferior de la página :ref:`estados de pago <#estados>`.  
+Una vez realizado el pago, se puede continuar con :ref:`esta parte <#credencial>`.  
 
 1.2.2.2 Planes de pago
 ~~~~~~~~~~~~~~~~~~~~~~  
@@ -233,6 +285,8 @@ credencial:
    :width: 500px
    :alt: alternate text
    :align: center  
+
+
    
    Seleccionamos esa opción y nos mostrara los planes locales
    del alumno, si hacemos clic sobre *Seleccionar plan de pagos* nos
@@ -258,10 +312,10 @@ credencial:
    :alt: alternate text
    :align: center  
 
-| Seleccionamos el tipo de **concepto** que vamos a agregar.  
+| Seleccionamos el tipo de **concepto** que vamos a agregar.   
 
 .. image:: /images/conceptonuevoplan.png
-   :width: 400px
+   :width: 350px
    :alt: alternate text
    :align: center  
 
@@ -306,8 +360,7 @@ guardar los cambios se seleccionará el botón *Actualizar*.
 
 Nos dá dos opciones para eliminar.
 
-.. _estadospago:  
-
+.. _estados:  
 1.2.3 Estados de pago  
 ~~~~~~~~~~~~~~~~~~~~~  
 
@@ -829,7 +882,7 @@ sección.
 ~~~~~~~~~~~~~~~~~~~~    
 
 Cómo última sección del área de *Facturas pendientes* se encuentran los
-estados de pagos que ya han sido explicados en :ref:`esta parte <#estadospago>`.   
+estados de pagos que ya han sido explicados en :ref:`esta parte <#estados>`.   
 
 2. Solicitud  
 ~~~~~~~~~~~~   
@@ -867,8 +920,10 @@ CREAR NUEVO
 4. Obligaciones crediticias
 ---------------------------  
 
-.. figure:: /images/obligaciones-crediticias.png
-   :alt: image71  
+.. image:: /images/obligaciones-crediticias.png
+   :width: 500px
+   :alt: alternate text
+   :align: center   
 
 .. image:: /images/deuda-alumno1.png
    :width: 100%
@@ -913,9 +968,9 @@ Se pueden acceder a los datos de los conceptos en color *negro*, aunque no haya 
 un menú con 2 opciones de compilación, *Compilación manual* y *Compilación rápida*:  
 
 .. image:: /images/compilaciones.png
-   :width: 350px
+   :width: 300px
    :alt: alternate text
-   :align: center  
+   :align: center   
 
 1. Compilación manual  
 ~~~~~~~~~~~~~~~~~~~~~  
@@ -958,7 +1013,7 @@ Se muestra una tabla con todos los datos respecto a los pagos realizados, montos
 fechas,terminología ,comprobantes, etc.   
 
 .. image:: /images/febrero2.png
-   :width: 100%
+   :width: 80%
    :alt: alternate text
    :align: center  
 
@@ -1021,7 +1076,7 @@ Los requerimientos son pagos realizados por la Sede y que tienen que ser reparti
    :align: center 
 
 Después de seleccionar algún concepto de la lista y haber agregado el monto seleccionamos 
-*Añadir requerimiento* y mostrará una tabla cómo la siguiente:  
+*Añadir requerimiento* y mostrará una tabla cómo la siguiente:   
 
 .. image:: /images/requerimientoincluido.png
    :width: 100%
@@ -1241,7 +1296,7 @@ De igual manera al seleccionar cualquier alumno en color **Rojo** nos dirigirá 
 Nos encontraremos con una sola opción **Desconciliar**, al seleccionar ese botón nos mostrará una ventana de advertencia cómo esta:   
 
 .. image:: /images/advertenciadesconciliar.png
-   :width: 100%
+   :width: 350px
    :alt: distribucion
    :align: center   
 
@@ -1250,7 +1305,7 @@ Y al darle **Continuar** volverá a mostrar los datos :ref:`de ésta manera <#de
 8.2 Historial de factuación
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   
 
-Al seleccionar ésta opción nos dirigirá a la misma información explicada en :ref:`Facturas pendientes <#_facturaspendientes>`.   
+Al seleccionar ésta opción nos dirigirá a la misma información explicada en :ref:`Facturas pendientes <#facturaspendientes>`.   
 
 Usuarios
 ========   
@@ -1370,7 +1425,7 @@ deberá presionar clic derecho sobre cualquier parte de la pantalla y nos
 mostrará un menú en donde seleccionaremos **Salir de este usuario**
 regresandonos a `Lista de usuarios <#listausuarios>`__.  
 
-.. figure:: /images/salirdeesteusuario.png
+.. image:: /images/salirdeesteusuario.png
    :width: 300px
    :alt: salir de usuario
    :align: center   
@@ -1409,8 +1464,20 @@ sobre el sistema:
 .. figure:: /images/grafico-usosistema.png
    :alt: image94  
 
-3.2 Credenciales generadas
-~~~~~~~~~~~~~~~~~~~~~~~~~~   
+4. Credenciales generadas
+-------------------------      
+
+4.1 Historial  
+~~~~~~~~~~~~~  
+
+Muestra una tabla con el historial para saber quién generó y descargó una credencial, así mismo aparecerá gráficamente en la parte superior en base al porcentaje del número 
+de personas que hayan realizado ésta acción:  
+
+.. image:: /images/historialcredencial.png
+   :width: 100%
+   :alt: historial
+   :align: center
+
 
 Alumnos
 =======  
