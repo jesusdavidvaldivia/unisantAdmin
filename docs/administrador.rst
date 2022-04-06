@@ -863,6 +863,7 @@ no son modificables.
 .. figure:: /images/informacion-adiciona-info.png
    :alt: image66  
 
+.. _facturacion: 
 1.6 Facturación
 ~~~~~~~~~~~~~~~  
 
@@ -1481,3 +1482,464 @@ de personas que hayan realizado ésta acción:
 
 Alumnos
 =======  
+
+1. Compras
+----------  
+
+.. image:: /images/compras.png
+   :width: 100%
+   :alt: compras
+   :align: center  
+
+1.1 Nueva compra  
+~~~~~~~~~~~~~~~~  
+
+2. Solicitud de facturas  
+------------------------  
+
+Muestra una tabla de las facturas pendientes, cómo se puede observar, los datos de las columnas que 
+contienen un recuadro azul, son los datos a los que se puede acceder:  
+
+.. image:: /images/solicitudfacturaalumno.png
+   :width: 100%
+   :alt: factura
+   :align: center  
+
+- Razón social: Al seleccionar el nombre de algún alumno nos dirigirá a su :ref:`información <#infoalumno>`.
+- Ver solicitud: Mostrará el recibo de pago con los detalles en el que se ingresaron los datos de :ref:`facturación <#facturacion>`.  
+- Facturar:  
+- Acciones: Mientras la factura no haya sido entregada se mostrará en color verde la leyenda **Marcar como entregada**, 
+si la factura ya se entregó se selecciona esa opción y notaremos que la columna desaparecerá  **NO SE A DONDE SE FUE XD**  
+
+En la parte superior derecha tenemos dos opciones:  
+
+.. _misfacturas:  
+2.1 Mis facturas  
+~~~~~~~~~~~~~~~~
+
+ Muestra una lista con todas las facturas realizadas.  
+
+.. image:: /images/misfacturas.png
+   :width: 100%
+   :alt: factura
+   :align: center  
+
+.. _nuevafactura:  
+   1. **Nueva Factura:**  
+   2. **Facturar desde solicitud:**  
+   3. **Búscar:** De acuerdo al rango de fechas establecido se realizará una búsqueda donde se mostrarán las facturas 
+   realizadas durante ese lapso.  
+   4. **Reestablecer:** Regresa a las fechas predeterminadas antes de haberlas modificado, mostrando los resultados más actuales.  
+   5. **RFC:** Al seleccionar el RFC del cliente mostrará la siguiente ventana de información.  
+
+.. image:: /images/clienteRFC.png
+   :width: 100%
+   :alt: cliente
+   :align: center  
+
+   6. **Disposición:** Contiene 3 opciones, para enviar a nuestro correo si es que tenemos un correo UNISANT registrado, descargar en formato PDF ó enviar 
+   al cliente:  
+
+.. image:: /images/disposicion.png
+   :width: 400px
+   :alt: disposicion
+   :align: center 
+
+   7. **Acciones:** Tendremos la opción de **Cancelar** la factura, dependiendo si se cancela ó no, el PDF descargado se mostrará de dos maneras.  
+
+   -  SIN CANCELAR
+.. image:: /images/sincancelar.png
+   :width: 100%
+   :alt: sincancelar
+   :align: center  
+
+   - CANCELADA  
+.. image:: /images/cancelada.png
+   :width: 100%
+   :alt: cancelada
+   :align: center  
+
+2.2 Nueva factura  
+~~~~~~~~~~~~~~~~~  
+
+Para generar una nueva factura de un cliente ya existente se deberán seguir los pasos mencionados en 
+:ref:`esta sección <#nuevafactura>`.  
+
+3. Todos los alumnos
+--------------------  
+
+Muestra la lista de todos los alumnos estatales de nuestra sede en una tabla con la información de el estado del 
+alumno, nombre, matrícula,RVOE, si tiene facturación, grupo y sede al que pertenece, en la parte superior podremos 
+hacer filtros de búsqueda, ya sea escribiendo un dato en específico ó seleccionando una sede y/o estado, así 
+mismo podremos indicar cuantos datos queremos que se muestren en una sola tabla, estos pueden ir desde 50 hasta 
+2000 datos mostrados, en este caso su valor por default es **50**, por lo que se mostrarán 50 filas:  
+
+.. image:: /images/todoslosalumnos.png
+   :width: 100%
+   :alt: todosalumnos
+   :align: center  
+
+Al seleccionar el nombre de algún alumno nos dirigirá a su :ref:`información <#infoalumno>`.
+
+4. Eliminados
+-------------  
+
+Muestra una tabla con la lista de los alumnos eliminados por control escolar, en la parte superior tenemos 
+las opciones de guardar los datos en diferentes formatos o imprimirlos. También al seleccionar el nombre 
+de algún alumno nos dirigirá a su :ref:`información <#infoalumno>`.   
+
+.. image:: /images/alumnoseliminados.png
+   :width: 100%
+   :alt: alumnoseliminados
+   :align: center 
+
+Facturas
+========  
+
+1. Productos
+------------  
+
+Mostrará una tabla con la lista de productos creados, también tendremos la opción de realizar búsquedas insertando 
+el dato que se requiera, desde fólio, clave y precio hasta por fechas.  
+
+.. image:: /images/productos.png
+   :width: 100%
+   :alt: productos
+   :align: center  
+
+1.1 Nuevo producto  
+~~~~~~~~~~~~~~~~~~  
+
+Al seleccionar la parte superior derecha **Nuevo producto** nos mostrará el siguiente formulario:  
+
+.. image:: /images/nuevoproducto.png
+   :width: 100%
+   :alt: nuevoproducto
+   :align: center  
+
+1.2 Modificar producto  
+~~~~~~~~~~~~~~~~~~~~~~  
+
+En la columna de **Acciones** tendremos la opción de *Modificar* y *Eliminar, al seleccionar *Modificar* 
+nos habilitará la información para que podamos realizar las modificaciones requeridas, una vez realizado 
+procederemos a guardar los datos seleccionando el botón *GUARDAR PRODUCTO*. Así mismo si seleccionamos *Eliminar* 
+la columna seleccionada desaparecerá de la tabla.  
+
+.. image:: /images/modificarproducto.png
+   :width: 100%
+   :alt: modificarproducto
+   :align: center  
+
+2. Mis facturas
+---------------  
+
+Podremos visualizar una tabla con un listado de las facturas creadas, podremos ver a detalle cada acción 
+en :ref:`Mis facturas <#misfacturas>`.  
+
+Sede
+====  
+
+1. Lista de Sedes
+-----------------  
+
+En esta sección comenzaremos explicando el encabezado, el cuál nos muestra 4 opciones, *Copiar entre sedes*, *Nueva sede*, 
+distintas maneras de guardar esta información y la opción de búsqueda ingresando algun dato o número específico:  
+
+.. image:: /images/sedesencabezado.png
+   :width: 100%
+   :alt: sedesencabezado
+   :align: center  
+
+1.1 Copiar entre sedes  
+~~~~~~~~~~~~~~~~~~~~~~  
+
+Al seleccionar esa opción nos mostrará dos recuadros, el primero será para elegir de una lista la sede desde la cuál serán copiados los conceptos y 
+el segundo para seleccionar de la lista las sedes a las cuales serán copiados los conceptos.  
+
+.. image:: /images/copiardesde.png
+   :width: 400px
+   :alt: copiardesde
+   :align: center 
+
+   .. image:: /images/copiarhasta.png
+   :width: 400px
+   :alt: copiarhasta
+   :align: center  
+
+1.2 Nueva Sede  
+~~~~~~~~~~~~~~   
+
+Ésta opción está ubicada en la parte superior derecha, la seleccionamos para crear una nueva sede, nos mostrará 
+un formulario donde tendremos que ingresar el *Nombre*, *Precio de pago*,*Divisa*, *Prefijo de matrícula* y al haberlos 
+llenado correctamente seleccionaremos el botón **Guardar**.  
+
+.. image:: /images/nuevasede.png
+   :width: 500px
+   :alt: nuevasede
+   :align: center  
+
+Posteriormente tenemos una tabla con una lista de todas las Sedes creadas y su respectivos datos de cada una, 
+esta sección se explicará en dos partes:  
+
+   1. Parte 1: Muestra el *Folio, Nombre(API), Alumnos(preguntar formato),Usuarios(Cantidad),API(preguntar que significa).  
+
+.. image:: /images/tablasedes1.png
+   :width: 100%
+   :alt: tablasedes1
+   :align: center  
+
+   2. Parte 2: En esta parte tomaremos como ejemplo la Sede **Orizaba** para explicar el funcionamiento de cada columna.  
+
+   .. image:: /images/orizaba.png
+   :width: 100%
+   :alt: orizaba
+   :align: center
+
+   - **Rv Estatales**: Al seleccionar uno de ellos, en este caso **Cuenta con 1** nos mostrará la siguiente información  
+.. image:: /images/rvestatales.png
+   :width: 100%
+   :alt: rvestatales
+   :align: center  
+
+   Cómo podemos observar tendremos la lista de RVOES asignados a esa Sede, así mismo en la parte superior tendremos otra opción:  
+
+1.3 Agregar RVOE  
+~~~~~~~~~~~~~~~~  
+
+   Tendremos una lista de RVOE donde seleccionaremos el que queremos agregar a la Sede que lo requiera, una vez seleccionada 
+   presionamos el botón *Guardar* para conservar los cambios y estos se reflejarán en la columna **Rv Estatales** de la Sede seleccionada.  
+.. image:: /images/agregarvoe.png
+   :width: 100%
+   :alt: agregarvoe
+   :align: center   
+
+   - **Planes de Pago**: Tendremos la opción de agregar *Plan de pago* a la Sede seleccionandolo de la lista desplegable.  
+
+.. image:: /images/anadirplanpago.png
+   :width: 500px
+   :alt: anadirplanpago  
+   :align: center  
+
+   También nos mostrará una tabla con la lista de planes agregados a ésta Sede y la opción para realizar búsquedas 
+   ingresando alguna palabra clave, ya sea monto, concepto, folio, etc:  
+
+.. image:: /images/planespagorizaba.png
+   :width: 100%
+   :alt: planespagorizaba
+   :align: center
+
+   - **Conceptos de Pago**:  Tendremos la opción de agregar *Concepto de pago* a la Sede seleccionandolo de la lista desplegable.  
+
+.. image:: /images/anadirconcepto.png
+   :width: 500px
+   :alt: anadirconcepto
+   :align: center  
+
+   También nos mostrará una tabla con la lista de conceptos agregados a ésta Sede y la opción para realizar búsquedas 
+   ingresando alguna palabra clave, ya sea folio, concepto o fecha de creación:  
+
+.. image:: /images/conceptospagorizaba.png
+   :width: 100%
+   :alt: conceptopagorizaba
+   :align: center  
+
+
+   - **Folio actual** :  
+
+   - **Grupos**:  Lista que muestra todos los grupos de los alumnos por cada una de las sedes y si poseen respectivas distribuciones.  
+
+.. image:: /images/gruposorizaba.png
+   :width: 100%
+   :alt: gruposorizaba
+   :align: center  
+
+   - **Prefijo**:  
+
+   - **Divisa**: Se selecciona si se estará manejando pesos mexicanos **MXN* ó dolares **USD**, estos datos pueden modificarse 
+   al seleccionar la divisa de la sede que se deseé, al haber modificado los datos necesarios, se seleccionará el botón 
+   **Actualizar**.  
+
+   - **Acciones**: Tendremos 2 opciones.  
+      **Editar**: Nos mostrará el siguiente formulario, al haber modificado los datos necesarios seleccionamos 
+      el botón **Actualizar**.  
+
+.. image:: /images/divisa.png
+   :width: 100%
+   :alt: divisas
+   :align: center  
+   
+      **Eliminar**: En caso que se requiera eliminar la Sede, presionamos esta opción. 
+
+2. Configuraciones
+------------------  
+
+Administra las variables de configuración del sistema, aquí nos mostrará una tabla con la lista de claves creadas 
+y su respectivo valor:  
+
+.. image:: /images/configuraciones.png
+   :width: 100%
+   :alt: configuraciones
+   :align: center  
+
+2.1 Modificar variables
+~~~~~~~~~~~~~~~~~~~~~~~
+
+La tabla contiene la columna de **Clave**, **Valor** y **Acciones**, al seleccionar el icono verde de *Acciones* 
+nos mostrará la información de la variable seleccionada, una vez modificados los datos necesarios seleccionamos 
+el botón **Actualizar**:  
+
+.. image:: /images/editarvariable.png
+   :width: 400px
+   :alt: editarvariable
+   :align: center  
+
+2.2 Nueva variable
+~~~~~~~~~~~~~~~~~~  
+
+Al seleccionar el botón naranja ubicado en la parte superior derecha **Nueva variable** tendremos un 
+formulario para generar una nueva variable para agregar nuevas configuraciones al sistema, en donde 
+debemos ingresar el nombre de la clave y el valor, al haber terminado de llenar correctamente los datos  
+procedemos a seleccionar el botón **Guardar** para conservar los cambios.   
+
+.. image:: /images/nuevavariable.png
+   :width: 400px
+   :alt: nuevavariable
+   :align: center  
+
+3. Conceptos  
+------------  
+
+Muestra una tabla con la lista de conceptos de requerimientos, podrémos ver tanto el nombre del concepto, usos, si es 
+activo o inactivo y la acción para modificar el concepto:  
+
+.. image:: /images/listaconceptos.png
+   :width: 100%
+   :alt: listaconceptos
+   :align: center  
+
+3.1 Modificar conceptos  
+~~~~~~~~~~~~~~~~~~~~~~~  
+
+Al seleccionar la acción del icono verde nos abrirá un formulario para editar el concepto seleccionado, 
+una vez modificados los datos necesarios seleccionamos el botón **Actualizar** para conservar cambios.  
+
+.. image:: /images/editarconcepto.png
+   :width: 600px
+   :alt: editarconcepto
+   :align: center   
+
+3.2 Nuevo concepto
+~~~~~~~~~~~~~~~~~~  
+
+Al seleccionar el botón naranja ubicado en la parte superior derecha **Nuevo concepto** tendremos un 
+formulario para generar un nuevo concepto, en donde debemos ingresar el nombre del concepto, uso,activo/inactivo, 
+al haber terminado de llenar correctamente los datos procedemos a seleccionar el botón **Guardar** para conservar los cambios.   
+
+.. image:: /images/nuevoconcepto.png
+   :width: 600px
+   :alt: nuevoconcepto
+   :align: center  
+
+
+Control Escolar 
+===============  
+
+1. Profesores
+-------------  
+
+Esta sección será explicada en 2 partes:   
+
+.. image:: /images/profesores.png
+   :width: 350px
+   :alt: profesores
+   :align: center
+
+1. El encabezado nos dará dos opciones:  
+
+1.1 Archivados
+~~~~~~~~~~~~~~  
+
+Muestra la lista de profesores que no se mostrarán el la lista principal. Así mismo tendremos la opción 
+**Desarchivar** para moverlos a la lista principal, al seleccionar el nombre del profesor nos mostrará 
+una ventana con la :ref:`información del profesor <#infoprofesor>`.  
+
+      - En la parte superior derecha tendremos la opcion **Lista común** nos dirigirá a la :ref:`lista de profesores <#listaprofesores>`.  
+      - En la parte superior izquiera tendremos la opción **Nuevo profesor** donde nos mostrará :ref:`este formulario <#nuevoprofesor>` para 
+        agregar un nuevo profesor.  
+
+.. image:: /images/profesoresarchivados.png
+   :width: 100%
+   :alt: profesoresarchivados
+   :align: center  
+
+1.2 Nuevo profesor 
+~~~~~~~~~~~~~~~~~~  
+
+.. image:: /images/nuevoprofesor.png
+   :width: 100%
+   :alt: nuevoprofesor
+   :align: center  
+
+Tendrémos un formulario donde deberemos ingresar los datos del profesor, marcar la casilla en caso de que sea extranjero, 
+así cómo su información general, una vez llenos los campos correctamente procedemos a **Guardar**.  
+
+Una vez guardados los datos nos mostrará más opciones para enriquecer la información, por ejemplo, insertar imagen de perfil y fecha de salida.  
+
+.. image:: /images/infoprofesor.png
+   :width: 100%
+   :alt: infoprofesor
+   :align: center  
+
+Al intentar subir una imagen del lado derecho nos dará la opción de ajustarla según se desee, al tener el tamaño que necesitemos 
+seleccionamos el botón **cortar y subir**.  
+
+.. image:: /images/modificarimagen.png
+   :width: 600px
+   :alt: modificarimagen
+   :align: center  
+
+Al subir correctamente la foto la información se nos mostrará de la siguiente manera:  
+
+.. image:: /images/infoconfoto.png
+   :width: 100%
+   :alt: infoconfoto
+   :align: center 
+  
+1.2.1 Agregar RVOEs
+~~~~~~~~~~~~~~~~~~~  
+
+En la parte superior nos mostrará la lista de RVOE asignadas a éste profesor, en caso de no tener alguno se mostrará de la siguiente manera:  
+
+.. image:: /images/insertarvoe.png
+   :width: 100%
+   :alt: insertarRVOE
+   :align: center  
+
+Si seleccionamos la opción **Añadir RVOE** de la parte superior derecha nos abrira una ventana emergente con la opción de 
+seleccionar de una lista de RVOEs los que se desean agregar a este profesor.  
+
+.. image:: /images/listarvoe.png
+   :width: 400px
+   :alt: listarvoe
+   :align: center  
+
+Una vez insertado el RVOE se nos mostrará de la siguiente manera:  
+
+.. image:: /images/rvoeinsertado.png
+   :width: 100%
+   :alt: rvoeinsertado
+   :align: center  
+
+Cómo podemos observar nos insertó una tabla en dónde irá la información de las materias, estas se agregarán seleccionando 
+la opción **Gestionar materias**.  
+
+
+
+2. Posteriormente tenemos la tabla con la lista de profesores agregados, se muestra el fólio, nombre, matrícula, 
+especialidad y la acción para archivar.  
+
+1.3 Editar profesor 
+~~~~~~~~~~~~~~~~~~~ 
+
+Al seleccionar el nombre de el profesor que se requiera nos abrirá el siguiente formulario el cuál nos permitirá 
+modificar los datos que necesitemos 
